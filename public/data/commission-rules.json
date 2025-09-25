@@ -1,0 +1,43 @@
+[
+  {
+    "id": "cmfzg0vtm0000ux9gqcpmx2sg",
+    "name": "Flat $5 per sale",
+    "type": "FLAT_PER_SALE",
+    "params": {
+      "amount": 5
+    },
+    "createdAt": "2025-09-25T13:22:56.408Z",
+    "updatedAt": "2025-09-25T13:22:56.408Z"
+  },
+  {
+    "id": "cmfzg0vuc0001ux9gex4qd18f",
+    "name": "15% of profit",
+    "type": "PERCENT_OF_PROFIT",
+    "params": {
+      "percentage": 15
+    },
+    "createdAt": "2025-09-25T13:22:56.436Z",
+    "updatedAt": "2025-09-25T13:22:56.436Z"
+  },
+  {
+    "id": "cmfzg0vul0002ux9gtdj64d0m",
+    "name": "Tiered (10% under $50, 20% over)",
+    "type": "TIERED",
+    "params": {
+      "tiers": [
+        {
+          "threshold": 50,
+          "type": "percentage",
+          "value": 20
+        },
+        {
+          "threshold": 0,
+          "type": "percentage",
+          "value": 10
+        }
+      ]
+    },
+    "createdAt": "2025-09-25T13:22:56.445Z",
+    "updatedAt": "2025-09-25T13:22:56.445Z"
+  }
+]

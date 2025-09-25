@@ -1,0 +1,162 @@
+[
+  {
+    "id": "cmfzg0wdj0016ux9gjgb29lcf",
+    "itemId": "cmfzg0w7w000kux9gk5tz9ktt",
+    "unit": "bottle",
+    "sellPrice": 50,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w7w000kux9gk5tz9ktt",
+      "name": "Dragon's Breath Whiskey",
+      "category": "Spirits",
+      "unit": "bottle",
+      "buyPrice": 25,
+      "supplier": "Western Distillery Co.",
+      "notes": "Our signature whiskey with a fiery finish",
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.925Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0017ux9g0iscy34o",
+    "itemId": "cmfzg0w7w000kux9gk5tz9ktt",
+    "unit": "glass",
+    "sellPrice": 3.5,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w7w000kux9gk5tz9ktt",
+      "name": "Dragon's Breath Whiskey",
+      "category": "Spirits",
+      "unit": "bottle",
+      "buyPrice": 25,
+      "supplier": "Western Distillery Co.",
+      "notes": "Our signature whiskey with a fiery finish",
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.925Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0013ux9gm733bqgv",
+    "itemId": "cmfzg0w7w000iux9g3rfnvmr9",
+    "unit": "glass",
+    "sellPrice": 4,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w7w000iux9g3rfnvmr9",
+      "name": "Tombstone Rye",
+      "category": "Spirits",
+      "unit": "bottle",
+      "buyPrice": 30,
+      "supplier": "Arizona Spirits",
+      "notes": "Premium rye whiskey",
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.925Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0014ux9gj135ta2j",
+    "itemId": "cmfzg0w9m000pux9gwgdhssxf",
+    "unit": "piece",
+    "sellPrice": 1,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w9m000pux9gwgdhssxf",
+      "name": "Hardtack Biscuits",
+      "category": "Food",
+      "unit": "dozen",
+      "buyPrice": 3,
+      "supplier": "Baker's Dozen",
+      "notes": null,
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.986Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0012ux9glakjmjzc",
+    "itemId": "cmfzg0w7y000lux9gw81aeqxl",
+    "unit": "bottle",
+    "sellPrice": 6,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w7y000lux9gw81aeqxl",
+      "name": "Desert Amber Ale",
+      "category": "Beer",
+      "unit": "bottle",
+      "buyPrice": 3.5,
+      "supplier": "Desert Brewery",
+      "notes": null,
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.925Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0018ux9g32ibtqwl",
+    "itemId": "cmfzg0w9b000oux9grwu8edl6",
+    "unit": "serving",
+    "sellPrice": 4,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w9b000oux9grwu8edl6",
+      "name": "Beef Jerky",
+      "category": "Food",
+      "unit": "pound",
+      "buyPrice": 8,
+      "supplier": "Frontier Meat Co.",
+      "notes": null,
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.976Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0019ux9gx7f8alrd",
+    "itemId": "cmfzg0w7w000hux9gpd6vastg",
+    "unit": "glass",
+    "sellPrice": 2,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w7w000hux9gpd6vastg",
+      "name": "Saloon Lager",
+      "category": "Beer",
+      "unit": "keg",
+      "buyPrice": 45,
+      "supplier": "Local Brewery",
+      "notes": "House beer on tap",
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.925Z"
+    }
+  },
+  {
+    "id": "cmfzg0wdj0015ux9gl168lmbo",
+    "itemId": "cmfzg0w7w000iux9g3rfnvmr9",
+    "unit": "bottle",
+    "sellPrice": 60,
+    "effectiveFrom": "2025-09-25T13:22:57.127Z",
+    "effectiveTo": null,
+    "notes": null,
+    "item": {
+      "id": "cmfzg0w7w000iux9g3rfnvmr9",
+      "name": "Tombstone Rye",
+      "category": "Spirits",
+      "unit": "bottle",
+      "buyPrice": 30,
+      "supplier": "Arizona Spirits",
+      "notes": "Premium rye whiskey",
+      "isActive": true,
+      "lastUpdated": "2025-09-25T13:22:56.925Z"
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cmfzg0wnm0021ux9gqqjy9iyn",
+    "name": "Rancher's Supper",
+    "description": "Hearty meal with a drink",
+    "isActive": true,
+    "bundleSellPrice": 25,
+    "createdAt": "2025-09-25T13:22:57.491Z",
+    "updatedAt": "2025-09-25T13:22:57.491Z",
+    "items": [
+      {
+        "id": "cmfzg0wpq002fux9g7xubq2rt",
+        "packageId": "cmfzg0wnm0021ux9gqqjy9iyn",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
+        "quantity": 2
+      },
+      {
+        "id": "cmfzg0wpo002dux9gj00j3yh7",
+        "packageId": "cmfzg0wnm0021ux9gqqjy9iyn",
+        "sourceType": "RECIPE",
+        "sourceId": "cmfzg0whl001dux9gwufs6n4l",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wnn0024ux9gr3k6d7nu",
+    "name": "Traveler's Kit",
+    "description": "Supplies for the road",
+    "isActive": true,
+    "bundleSellPrice": 15,
+    "createdAt": "2025-09-25T13:22:57.491Z",
+    "updatedAt": "2025-09-25T13:22:57.491Z",
+    "items": []
+  },
+  {
+    "id": "cmfzg0wnn0023ux9g4yrild0f",
+    "name": "Saturday Night Special",
+    "description": "Premium drinks for celebration",
+    "isActive": true,
+    "bundleSellPrice": 45,
+    "createdAt": "2025-09-25T13:22:57.491Z",
+    "updatedAt": "2025-09-25T13:22:57.491Z",
+    "items": []
+  },
+  {
+    "id": "cmfzg0wnn0025ux9gtodvowz9",
+    "name": "Poker Night Pack",
+    "description": "Everything you need for a good game",
+    "isActive": true,
+    "bundleSellPrice": 35,
+    "createdAt": "2025-09-25T13:22:57.491Z",
+    "updatedAt": "2025-09-25T13:22:57.491Z",
+    "items": [
+      {
+        "id": "cmfzg0wpo002bux9gstau199w",
+        "packageId": "cmfzg0wnn0025ux9gtodvowz9",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "quantity": 6
+      },
+      {
+        "id": "cmfzg0wpo002aux9g5pgx9245",
+        "packageId": "cmfzg0wnn0025ux9gtodvowz9",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "quantity": 1
+      },
+      {
+        "id": "cmfzg0wpo0028ux9gysxe8i10",
+        "packageId": "cmfzg0wnn0025ux9gtodvowz9",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wnm0022ux9gvarti6g3",
+    "name": "Saloon Sampler",
+    "description": "Try a bit of everything",
+    "isActive": true,
+    "bundleSellPrice": 20,
+    "createdAt": "2025-09-25T13:22:57.491Z",
+    "updatedAt": "2025-09-25T13:22:57.491Z",
+    "items": []
+  }
+]

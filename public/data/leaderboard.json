@@ -1,0 +1,372 @@
+{
+  "revenue": [
+    {
+      "user": {
+        "id": "cmfzg0w4s0004ux9gxqufw9pt",
+        "name": "Jake \"Mustang\" Miller",
+        "username": "jake"
+      },
+      "revenue": 335.6,
+      "profit": 168.60000000000002,
+      "commission": 15,
+      "orderCount": 3,
+      "avgMargin": 49.50088079859072
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000bux9gc8a38u05",
+        "name": "Frank \"Iron Horse\" Thompson",
+        "username": "frank"
+      },
+      "revenue": 314,
+      "profit": 153.00000000000003,
+      "commission": 25,
+      "orderCount": 5,
+      "avgMargin": 48.26498422712935
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000eux9gwxo3f8on",
+        "name": "Eliza \"Doc\" Morrison",
+        "username": "doc"
+      },
+      "revenue": 299.6,
+      "profit": 141.6,
+      "commission": 23.96,
+      "orderCount": 4,
+      "avgMargin": 47.263017356475295
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000dux9g5cwgii8x",
+        "name": "Martha \"Red\" O'Connor",
+        "username": "red"
+      },
+      "revenue": 134.8,
+      "profit": 55.80000000000001,
+      "commission": 8.370000000000003,
+      "orderCount": 3,
+      "avgMargin": 40.49346879535559
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4w0007ux9gd8icj13k",
+        "name": "Belle \"Songbird\" Davis",
+        "username": "belle"
+      },
+      "revenue": 69.30000000000001,
+      "profit": 37.800000000000004,
+      "commission": 5.67,
+      "orderCount": 4,
+      "avgMargin": 54.54545454545454
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x0009ux9g57zrowzv",
+        "name": "Silas Blackwood",
+        "username": "admin"
+      },
+      "revenue": 35,
+      "profit": 5,
+      "commission": 0.5,
+      "orderCount": 2,
+      "avgMargin": 14.285714285714285
+    }
+  ],
+  "profit": [
+    {
+      "user": {
+        "id": "cmfzg0w4s0004ux9gxqufw9pt",
+        "name": "Jake \"Mustang\" Miller",
+        "username": "jake"
+      },
+      "revenue": 335.6,
+      "profit": 168.60000000000002,
+      "commission": 15,
+      "orderCount": 3,
+      "avgMargin": 49.50088079859072
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000bux9gc8a38u05",
+        "name": "Frank \"Iron Horse\" Thompson",
+        "username": "frank"
+      },
+      "revenue": 314,
+      "profit": 153.00000000000003,
+      "commission": 25,
+      "orderCount": 5,
+      "avgMargin": 48.26498422712935
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000eux9gwxo3f8on",
+        "name": "Eliza \"Doc\" Morrison",
+        "username": "doc"
+      },
+      "revenue": 299.6,
+      "profit": 141.6,
+      "commission": 23.96,
+      "orderCount": 4,
+      "avgMargin": 47.263017356475295
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000dux9g5cwgii8x",
+        "name": "Martha \"Red\" O'Connor",
+        "username": "red"
+      },
+      "revenue": 134.8,
+      "profit": 55.80000000000001,
+      "commission": 8.370000000000003,
+      "orderCount": 3,
+      "avgMargin": 40.49346879535559
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4w0007ux9gd8icj13k",
+        "name": "Belle \"Songbird\" Davis",
+        "username": "belle"
+      },
+      "revenue": 69.30000000000001,
+      "profit": 37.800000000000004,
+      "commission": 5.67,
+      "orderCount": 4,
+      "avgMargin": 54.54545454545454
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x0009ux9g57zrowzv",
+        "name": "Silas Blackwood",
+        "username": "admin"
+      },
+      "revenue": 35,
+      "profit": 5,
+      "commission": 0.5,
+      "orderCount": 2,
+      "avgMargin": 14.285714285714285
+    }
+  ],
+  "orders": [
+    {
+      "user": {
+        "id": "cmfzg0w4x000bux9gc8a38u05",
+        "name": "Frank \"Iron Horse\" Thompson",
+        "username": "frank"
+      },
+      "revenue": 314,
+      "profit": 153.00000000000003,
+      "commission": 25,
+      "orderCount": 5,
+      "avgMargin": 48.26498422712935
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000eux9gwxo3f8on",
+        "name": "Eliza \"Doc\" Morrison",
+        "username": "doc"
+      },
+      "revenue": 299.6,
+      "profit": 141.6,
+      "commission": 23.96,
+      "orderCount": 4,
+      "avgMargin": 47.263017356475295
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4w0007ux9gd8icj13k",
+        "name": "Belle \"Songbird\" Davis",
+        "username": "belle"
+      },
+      "revenue": 69.30000000000001,
+      "profit": 37.800000000000004,
+      "commission": 5.67,
+      "orderCount": 4,
+      "avgMargin": 54.54545454545454
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4s0004ux9gxqufw9pt",
+        "name": "Jake \"Mustang\" Miller",
+        "username": "jake"
+      },
+      "revenue": 335.6,
+      "profit": 168.60000000000002,
+      "commission": 15,
+      "orderCount": 3,
+      "avgMargin": 49.50088079859072
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000dux9g5cwgii8x",
+        "name": "Martha \"Red\" O'Connor",
+        "username": "red"
+      },
+      "revenue": 134.8,
+      "profit": 55.80000000000001,
+      "commission": 8.370000000000003,
+      "orderCount": 3,
+      "avgMargin": 40.49346879535559
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x0009ux9g57zrowzv",
+        "name": "Silas Blackwood",
+        "username": "admin"
+      },
+      "revenue": 35,
+      "profit": 5,
+      "commission": 0.5,
+      "orderCount": 2,
+      "avgMargin": 14.285714285714285
+    }
+  ],
+  "margin": [
+    {
+      "user": {
+        "id": "cmfzg0w4w0007ux9gd8icj13k",
+        "name": "Belle \"Songbird\" Davis",
+        "username": "belle"
+      },
+      "revenue": 69.30000000000001,
+      "profit": 37.800000000000004,
+      "commission": 5.67,
+      "orderCount": 4,
+      "avgMargin": 54.54545454545454
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4s0004ux9gxqufw9pt",
+        "name": "Jake \"Mustang\" Miller",
+        "username": "jake"
+      },
+      "revenue": 335.6,
+      "profit": 168.60000000000002,
+      "commission": 15,
+      "orderCount": 3,
+      "avgMargin": 49.50088079859072
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000bux9gc8a38u05",
+        "name": "Frank \"Iron Horse\" Thompson",
+        "username": "frank"
+      },
+      "revenue": 314,
+      "profit": 153.00000000000003,
+      "commission": 25,
+      "orderCount": 5,
+      "avgMargin": 48.26498422712935
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000eux9gwxo3f8on",
+        "name": "Eliza \"Doc\" Morrison",
+        "username": "doc"
+      },
+      "revenue": 299.6,
+      "profit": 141.6,
+      "commission": 23.96,
+      "orderCount": 4,
+      "avgMargin": 47.263017356475295
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000dux9g5cwgii8x",
+        "name": "Martha \"Red\" O'Connor",
+        "username": "red"
+      },
+      "revenue": 134.8,
+      "profit": 55.80000000000001,
+      "commission": 8.370000000000003,
+      "orderCount": 3,
+      "avgMargin": 40.49346879535559
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x0009ux9g57zrowzv",
+        "name": "Silas Blackwood",
+        "username": "admin"
+      },
+      "revenue": 35,
+      "profit": 5,
+      "commission": 0.5,
+      "orderCount": 2,
+      "avgMargin": 14.285714285714285
+    }
+  ],
+  "commission": [
+    {
+      "user": {
+        "id": "cmfzg0w4x000bux9gc8a38u05",
+        "name": "Frank \"Iron Horse\" Thompson",
+        "username": "frank"
+      },
+      "revenue": 314,
+      "profit": 153.00000000000003,
+      "commission": 25,
+      "orderCount": 5,
+      "avgMargin": 48.26498422712935
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000eux9gwxo3f8on",
+        "name": "Eliza \"Doc\" Morrison",
+        "username": "doc"
+      },
+      "revenue": 299.6,
+      "profit": 141.6,
+      "commission": 23.96,
+      "orderCount": 4,
+      "avgMargin": 47.263017356475295
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4s0004ux9gxqufw9pt",
+        "name": "Jake \"Mustang\" Miller",
+        "username": "jake"
+      },
+      "revenue": 335.6,
+      "profit": 168.60000000000002,
+      "commission": 15,
+      "orderCount": 3,
+      "avgMargin": 49.50088079859072
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x000dux9g5cwgii8x",
+        "name": "Martha \"Red\" O'Connor",
+        "username": "red"
+      },
+      "revenue": 134.8,
+      "profit": 55.80000000000001,
+      "commission": 8.370000000000003,
+      "orderCount": 3,
+      "avgMargin": 40.49346879535559
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4w0007ux9gd8icj13k",
+        "name": "Belle \"Songbird\" Davis",
+        "username": "belle"
+      },
+      "revenue": 69.30000000000001,
+      "profit": 37.800000000000004,
+      "commission": 5.67,
+      "orderCount": 4,
+      "avgMargin": 54.54545454545454
+    },
+    {
+      "user": {
+        "id": "cmfzg0w4x0009ux9g57zrowzv",
+        "name": "Silas Blackwood",
+        "username": "admin"
+      },
+      "revenue": 35,
+      "profit": 5,
+      "commission": 0.5,
+      "orderCount": 2,
+      "avgMargin": 14.285714285714285
+    }
+  ]
+}

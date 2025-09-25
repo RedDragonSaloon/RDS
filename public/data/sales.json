@@ -1,0 +1,2240 @@
+[
+  {
+    "id": "cmfzg0xl2008jux9gbc4ul3k3",
+    "datetime": "2025-09-25T08:33:08.064Z",
+    "userId": "cmfzg0w4x0009ux9g57zrowzv",
+    "customer": "Belle Starr",
+    "subtotal": 20,
+    "discount": 0,
+    "total": 20,
+    "cost": 15,
+    "profit": 5,
+    "commission": 0.5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x0009ux9g57zrowzv",
+      "name": "Silas Blackwood",
+      "username": "admin"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xlc008lux9g5nxqz2th",
+        "saleId": "cmfzg0xl2008jux9gbc4ul3k3",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnm0022ux9gvarti6g3",
+        "nameSnapshot": "Saloon Sampler",
+        "quantity": 1,
+        "unitPrice": 20,
+        "lineTotal": 20,
+        "estimatedCost": 15,
+        "estimatedProfit": 5
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x0d004fux9glhziuj0r",
+    "datetime": "2025-09-25T01:45:18.134Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": "Belle Starr",
+    "subtotal": 201.2,
+    "discount": 0,
+    "total": 201.2,
+    "cost": 106,
+    "profit": 95.20000000000002,
+    "commission": 5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x0k004kux9gon8b1k8n",
+        "saleId": "cmfzg0x0d004fux9glhziuj0r",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000gux9gtnrnxjbb",
+        "nameSnapshot": "Snake Oil Gin",
+        "quantity": 2,
+        "unitPrice": 32.4,
+        "lineTotal": 64.8,
+        "estimatedCost": 36,
+        "estimatedProfit": 28.8
+      },
+      {
+        "id": "cmfzg0x0l004nux9ggab6say9",
+        "saleId": "cmfzg0x0d004fux9glhziuj0r",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 1,
+        "unitPrice": 4.4,
+        "lineTotal": 4.4,
+        "estimatedCost": 2,
+        "estimatedProfit": 2.4
+      },
+      {
+        "id": "cmfzg0x0k004lux9ggmvjo5gj",
+        "saleId": "cmfzg0x0d004fux9glhziuj0r",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 2,
+        "unitPrice": 39.6,
+        "lineTotal": 79.2,
+        "estimatedCost": 44,
+        "estimatedProfit": 35.2
+      },
+      {
+        "id": "cmfzg0x0l004mux9gyzduyb6z",
+        "saleId": "cmfzg0x0d004fux9glhziuj0r",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 3,
+        "unitPrice": 17.6,
+        "lineTotal": 52.8,
+        "estimatedCost": 24,
+        "estimatedProfit": 28.8
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xad0065ux9gam0xewkh",
+    "datetime": "2025-09-24T18:21:47.087Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": null,
+    "subtotal": 17.6,
+    "discount": 0,
+    "total": 17.6,
+    "cost": 8,
+    "profit": 9.600000000000001,
+    "commission": 1.44,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xal0067ux9gi1u9zodf",
+        "saleId": "cmfzg0xad0065ux9gam0xewkh",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 1,
+        "unitPrice": 17.6,
+        "lineTotal": 17.6,
+        "estimatedCost": 8,
+        "estimatedProfit": 9.600000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x7u005rux9gkun85rch",
+    "datetime": "2025-09-24T14:59:18.244Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": "Doc Holiday",
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "cost": 15,
+    "profit": 10,
+    "commission": 1,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x82005tux9gmms165yp",
+        "saleId": "cmfzg0x7u005rux9gkun85rch",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnm0021ux9gqqjy9iyn",
+        "nameSnapshot": "Rancher's Supper",
+        "quantity": 1,
+        "unitPrice": 25,
+        "lineTotal": 25,
+        "estimatedCost": 15,
+        "estimatedProfit": 10
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x3t0051ux9g1rj1itf2",
+    "datetime": "2025-09-23T07:07:04.558Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Doc Holiday",
+    "subtotal": 107.8,
+    "discount": 0,
+    "total": 107.8,
+    "cost": 49,
+    "profit": 58.80000000000001,
+    "commission": 8.820000000000002,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x440054ux9gj5mqn4gj",
+        "saleId": "cmfzg0x3t0051ux9g1rj1itf2",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa2000sux9giooftrtn",
+        "nameSnapshot": "Frontier Stout",
+        "quantity": 1,
+        "unitPrice": 8.8,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      },
+      {
+        "id": "cmfzg0x440055ux9gimg2oa3m",
+        "saleId": "cmfzg0x3t0051ux9g1rj1itf2",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "nameSnapshot": "Saloon Lager",
+        "quantity": 1,
+        "unitPrice": 99.00000000000001,
+        "lineTotal": 99.00000000000001,
+        "estimatedCost": 45,
+        "estimatedProfit": 54.00000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xhp007rux9gprsiinpb",
+    "datetime": "2025-09-23T05:03:38.062Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Calamity Jane",
+    "subtotal": 15,
+    "discount": 3,
+    "total": 12,
+    "cost": 15,
+    "profit": -3,
+    "commission": -0.45,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xi1007tux9gztw2pxiz",
+        "saleId": "cmfzg0xhp007rux9gprsiinpb",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0024ux9gr3k6d7nu",
+        "nameSnapshot": "Traveler's Kit",
+        "quantity": 1,
+        "unitPrice": 15,
+        "lineTotal": 15,
+        "estimatedCost": 15,
+        "estimatedProfit": 0
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xot009bux9gpfu0syoi",
+    "datetime": "2025-09-23T04:11:26.667Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": null,
+    "subtotal": 13.2,
+    "discount": 0,
+    "total": 13.2,
+    "cost": 6,
+    "profit": 7.200000000000001,
+    "commission": 5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xp3009dux9g67z28d7v",
+        "saleId": "cmfzg0xot009bux9gpfu0syoi",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 3,
+        "unitPrice": 4.4,
+        "lineTotal": 13.2,
+        "estimatedCost": 6,
+        "estimatedProfit": 7.200000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xas0069ux9gqr2qo6do",
+    "datetime": "2025-09-22T23:08:05.446Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Wild Bill",
+    "subtotal": 35,
+    "discount": 5,
+    "total": 30,
+    "cost": 15,
+    "profit": 15,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xaz006bux9gslz799pl",
+        "saleId": "cmfzg0xas0069ux9gqr2qo6do",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0025ux9gtodvowz9",
+        "nameSnapshot": "Poker Night Pack",
+        "quantity": 1,
+        "unitPrice": 35,
+        "lineTotal": 35,
+        "estimatedCost": 15,
+        "estimatedProfit": 20
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x55005bux9gzt2gebj2",
+    "datetime": "2025-09-22T13:27:11.002Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": "Annie Oakley",
+    "subtotal": 213,
+    "discount": 0,
+    "total": 213,
+    "cost": 115,
+    "profit": 98,
+    "commission": 19.6,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x5a005hux9gpaafa8xc",
+        "saleId": "cmfzg0x55005bux9gzt2gebj2",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa8000tux9g2docliju",
+        "nameSnapshot": "Cactus Flower Tequila",
+        "quantity": 2,
+        "unitPrice": 36,
+        "lineTotal": 72,
+        "estimatedCost": 40,
+        "estimatedProfit": 32
+      },
+      {
+        "id": "cmfzg0x5a005iux9gmz99ssgg",
+        "saleId": "cmfzg0x55005bux9gzt2gebj2",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w96000nux9ggiqyydnx",
+        "nameSnapshot": "Simple Syrup",
+        "quantity": 1,
+        "unitPrice": 11,
+        "lineTotal": 11,
+        "estimatedCost": 5,
+        "estimatedProfit": 6
+      },
+      {
+        "id": "cmfzg0x5a005gux9gfod8wlgj",
+        "saleId": "cmfzg0x55005bux9gzt2gebj2",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w96000nux9ggiqyydnx",
+        "nameSnapshot": "Simple Syrup",
+        "quantity": 2,
+        "unitPrice": 11,
+        "lineTotal": 22,
+        "estimatedCost": 10,
+        "estimatedProfit": 12
+      },
+      {
+        "id": "cmfzg0x5a005jux9gueiivyy6",
+        "saleId": "cmfzg0x55005bux9gzt2gebj2",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "nameSnapshot": "Tombstone Rye",
+        "quantity": 2,
+        "unitPrice": 54,
+        "lineTotal": 108,
+        "estimatedCost": 60,
+        "estimatedProfit": 48
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wvd003bux9g18r4howj",
+    "datetime": "2025-09-22T07:08:06.743Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": "Doc Holiday",
+    "subtotal": 19.8,
+    "discount": 3,
+    "total": 16.8,
+    "cost": 9,
+    "profit": 7.800000000000001,
+    "commission": 5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wvk003fux9g0tol6j7m",
+        "saleId": "cmfzg0wvd003bux9g18r4howj",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa2000sux9giooftrtn",
+        "nameSnapshot": "Frontier Stout",
+        "quantity": 1,
+        "unitPrice": 8.8,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      },
+      {
+        "id": "cmfzg0wvk003eux9gmfyztxr3",
+        "saleId": "cmfzg0wvd003bux9g18r4howj",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7z000mux9g49oa9q4i",
+        "nameSnapshot": "Ginger Beer",
+        "quantity": 2,
+        "unitPrice": 5.5,
+        "lineTotal": 11,
+        "estimatedCost": 5,
+        "estimatedProfit": 6
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xjd0085ux9g4mvj1ymc",
+    "datetime": "2025-09-21T17:29:17.638Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Wyatt Earp",
+    "subtotal": 15,
+    "discount": 0,
+    "total": 15,
+    "cost": 15,
+    "profit": 0,
+    "commission": 0,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xjj0087ux9ghlqd4siu",
+        "saleId": "cmfzg0xjd0085ux9g4mvj1ymc",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0024ux9gr3k6d7nu",
+        "nameSnapshot": "Traveler's Kit",
+        "quantity": 1,
+        "unitPrice": 15,
+        "lineTotal": 15,
+        "estimatedCost": 15,
+        "estimatedProfit": 0
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wsk002rux9gonoh37w6",
+    "datetime": "2025-09-21T02:29:59.006Z",
+    "userId": "cmfzg0w4x0009ux9g57zrowzv",
+    "customer": "Calamity Jane",
+    "subtotal": 15,
+    "discount": 0,
+    "total": 15,
+    "cost": 15,
+    "profit": 0,
+    "commission": 0,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x0009ux9g57zrowzv",
+      "name": "Silas Blackwood",
+      "username": "admin"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wsr002tux9gz6mwk4fq",
+        "saleId": "cmfzg0wsk002rux9gonoh37w6",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0024ux9gr3k6d7nu",
+        "nameSnapshot": "Traveler's Kit",
+        "quantity": 1,
+        "unitPrice": 15,
+        "lineTotal": 15,
+        "estimatedCost": 15,
+        "estimatedProfit": 0
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wxv003xux9gye9nrqn7",
+    "datetime": "2025-09-20T17:21:30.670Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": null,
+    "subtotal": 8.8,
+    "discount": 0,
+    "total": 8.8,
+    "cost": 4,
+    "profit": 4.800000000000001,
+    "commission": 0.4800000000000001,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wy2003zux9g6i1wabpt",
+        "saleId": "cmfzg0wxv003xux9gye9nrqn7",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 2,
+        "unitPrice": 4.4,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xtl00a5ux9gpsejgcyk",
+    "datetime": "2025-09-20T11:23:14.467Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Wild Bill",
+    "subtotal": 149.6,
+    "discount": 0,
+    "total": 149.6,
+    "cost": 72,
+    "profit": 77.60000000000002,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xtt00abux9gio1kqu6x",
+        "saleId": "cmfzg0xtl00a5ux9gpsejgcyk",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "nameSnapshot": "Saloon Lager",
+        "quantity": 1,
+        "unitPrice": 99.00000000000001,
+        "lineTotal": 99.00000000000001,
+        "estimatedCost": 45,
+        "estimatedProfit": 54.00000000000001
+      },
+      {
+        "id": "cmfzg0xtt00a9ux9ggqo6h297",
+        "saleId": "cmfzg0xtl00a5ux9gpsejgcyk",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 1,
+        "unitPrice": 39.6,
+        "lineTotal": 39.6,
+        "estimatedCost": 22,
+        "estimatedProfit": 17.6
+      },
+      {
+        "id": "cmfzg0xtt00aaux9gyvas4g4h",
+        "saleId": "cmfzg0xtl00a5ux9gpsejgcyk",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9u000rux9gf3oep3l6",
+        "nameSnapshot": "Prairie Beans",
+        "quantity": 2,
+        "unitPrice": 5.5,
+        "lineTotal": 11,
+        "estimatedCost": 5,
+        "estimatedProfit": 6
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xi8007vux9g5l7jnbpe",
+    "datetime": "2025-09-20T00:00:42.290Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": null,
+    "subtotal": 7.700000000000001,
+    "discount": 0,
+    "total": 7.700000000000001,
+    "cost": 3.5,
+    "profit": 4.200000000000001,
+    "commission": 0.6300000000000001,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xij007xux9g7dd8esis",
+        "saleId": "cmfzg0xi8007vux9g5l7jnbpe",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7y000lux9gw81aeqxl",
+        "nameSnapshot": "Desert Amber Ale",
+        "quantity": 1,
+        "unitPrice": 7.700000000000001,
+        "lineTotal": 7.700000000000001,
+        "estimatedCost": 3.5,
+        "estimatedProfit": 4.200000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xgs007lux9glwueflv1",
+    "datetime": "2025-09-19T23:22:02.818Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": "Wild Bill",
+    "subtotal": 17.6,
+    "discount": 0,
+    "total": 17.6,
+    "cost": 8,
+    "profit": 9.600000000000001,
+    "commission": 1.44,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xgz007pux9g2ica2374",
+        "saleId": "cmfzg0xgs007lux9glwueflv1",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 2,
+        "unitPrice": 4.4,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      },
+      {
+        "id": "cmfzg0xgz007oux9gce3ludle",
+        "saleId": "cmfzg0xgs007lux9glwueflv1",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 2,
+        "unitPrice": 4.4,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0ws8002nux9gb0a30i2o",
+    "datetime": "2025-09-19T21:56:07.730Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": "Pat Garrett",
+    "subtotal": 52.8,
+    "discount": 0,
+    "total": 52.8,
+    "cost": 24,
+    "profit": 28.8,
+    "commission": 2.880000000000001,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wsc002pux9g15m65ree",
+        "saleId": "cmfzg0ws8002nux9gb0a30i2o",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 3,
+        "unitPrice": 17.6,
+        "lineTotal": 52.8,
+        "estimatedCost": 24,
+        "estimatedProfit": 28.8
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x02004bux9gl1i07vi1",
+    "datetime": "2025-09-19T19:26:19.315Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": "Annie Oakley",
+    "subtotal": 35,
+    "discount": 0,
+    "total": 35,
+    "cost": 15,
+    "profit": 20,
+    "commission": 5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x06004dux9gsstoumbu",
+        "saleId": "cmfzg0x02004bux9gl1i07vi1",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0025ux9gtodvowz9",
+        "nameSnapshot": "Poker Night Pack",
+        "quantity": 1,
+        "unitPrice": 35,
+        "lineTotal": 35,
+        "estimatedCost": 15,
+        "estimatedProfit": 20
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wxb003rux9gpufe072i",
+    "datetime": "2025-09-18T20:12:21.866Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": null,
+    "subtotal": 26.4,
+    "discount": 0,
+    "total": 26.4,
+    "cost": 12,
+    "profit": 14.4,
+    "commission": 2.16,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wxg003vux9gbuy2a305",
+        "saleId": "cmfzg0wxb003rux9gpufe072i",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 1,
+        "unitPrice": 17.6,
+        "lineTotal": 17.6,
+        "estimatedCost": 8,
+        "estimatedProfit": 9.600000000000001
+      },
+      {
+        "id": "cmfzg0wxg003uux9g51tf79fb",
+        "saleId": "cmfzg0wxb003rux9gpufe072i",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 2,
+        "unitPrice": 4.4,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xma008tux9g9nzb7i36",
+    "datetime": "2025-09-18T19:27:34.296Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": null,
+    "subtotal": 47.8,
+    "discount": 0,
+    "total": 47.8,
+    "cost": 25,
+    "profit": 22.8,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xmf008xux9gk4zt6fyh",
+        "saleId": "cmfzg0xma008tux9g9nzb7i36",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7y000lux9gw81aeqxl",
+        "nameSnapshot": "Desert Amber Ale",
+        "quantity": 2,
+        "unitPrice": 7.700000000000001,
+        "lineTotal": 15.4,
+        "estimatedCost": 7,
+        "estimatedProfit": 8.400000000000002
+      },
+      {
+        "id": "cmfzg0xmf008wux9ghxfv6h9w",
+        "saleId": "cmfzg0xma008tux9g9nzb7i36",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000gux9gtnrnxjbb",
+        "nameSnapshot": "Snake Oil Gin",
+        "quantity": 1,
+        "unitPrice": 32.4,
+        "lineTotal": 32.4,
+        "estimatedCost": 18,
+        "estimatedProfit": 14.4
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x25004pux9gmm1udrj5",
+    "datetime": "2025-09-18T15:46:51.101Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Pat Garrett",
+    "subtotal": 156,
+    "discount": 0,
+    "total": 156,
+    "cost": 80,
+    "profit": 76,
+    "commission": 5,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x2e004tux9gx5drue6s",
+        "saleId": "cmfzg0x25004pux9gmm1udrj5",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9q000qux9g0l7c93qj",
+        "nameSnapshot": "Salted Pork",
+        "quantity": 2,
+        "unitPrice": 13.2,
+        "lineTotal": 26.4,
+        "estimatedCost": 12,
+        "estimatedProfit": 14.4
+      },
+      {
+        "id": "cmfzg0x2e004vux9gqnfczext",
+        "saleId": "cmfzg0x25004pux9gmm1udrj5",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9q000qux9g0l7c93qj",
+        "nameSnapshot": "Salted Pork",
+        "quantity": 3,
+        "unitPrice": 13.2,
+        "lineTotal": 39.6,
+        "estimatedCost": 18,
+        "estimatedProfit": 21.6
+      },
+      {
+        "id": "cmfzg0x2e004uux9gih2tbitl",
+        "saleId": "cmfzg0x25004pux9gmm1udrj5",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
+        "nameSnapshot": "Dragon's Breath Whiskey",
+        "quantity": 2,
+        "unitPrice": 45,
+        "lineTotal": 90,
+        "estimatedCost": 50,
+        "estimatedProfit": 40
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x8f005vux9gs6iy1wvu",
+    "datetime": "2025-09-18T01:47:41.957Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": "Wild Bill",
+    "subtotal": 480.8000000000001,
+    "discount": 0,
+    "total": 480.8000000000001,
+    "cost": 236,
+    "profit": 244.8000000000001,
+    "commission": 36.72000000000001,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x8s0060ux9gqjrycuws",
+        "saleId": "cmfzg0x8f005vux9gs6iy1wvu",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "nameSnapshot": "Tombstone Rye",
+        "quantity": 1,
+        "unitPrice": 54,
+        "lineTotal": 54,
+        "estimatedCost": 30,
+        "estimatedProfit": 24
+      },
+      {
+        "id": "cmfzg0x8s0061ux9gkcet5r8k",
+        "saleId": "cmfzg0x8f005vux9gs6iy1wvu",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w96000nux9ggiqyydnx",
+        "nameSnapshot": "Simple Syrup",
+        "quantity": 1,
+        "unitPrice": 11,
+        "lineTotal": 11,
+        "estimatedCost": 5,
+        "estimatedProfit": 6
+      },
+      {
+        "id": "cmfzg0x8s0062ux9gtgo3v7ag",
+        "saleId": "cmfzg0x8f005vux9gs6iy1wvu",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "nameSnapshot": "Saloon Lager",
+        "quantity": 3,
+        "unitPrice": 99.00000000000001,
+        "lineTotal": 297.0000000000001,
+        "estimatedCost": 135,
+        "estimatedProfit": 162.0000000000001
+      },
+      {
+        "id": "cmfzg0x8s0063ux9g4yc17a3a",
+        "saleId": "cmfzg0x8f005vux9gs6iy1wvu",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 3,
+        "unitPrice": 39.6,
+        "lineTotal": 118.8,
+        "estimatedCost": 66,
+        "estimatedProfit": 52.80000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wya0041ux9ghfixwojm",
+    "datetime": "2025-09-17T17:24:31.153Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Pat Garrett",
+    "subtotal": 155,
+    "discount": 0,
+    "total": 155,
+    "cost": 75,
+    "profit": 80,
+    "commission": 12,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wym0046ux9gxds4c48o",
+        "saleId": "cmfzg0wya0041ux9ghfixwojm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7z000mux9g49oa9q4i",
+        "nameSnapshot": "Ginger Beer",
+        "quantity": 1,
+        "unitPrice": 5.5,
+        "lineTotal": 5.5,
+        "estimatedCost": 2.5,
+        "estimatedProfit": 3
+      },
+      {
+        "id": "cmfzg0wym0048ux9g09mgjo96",
+        "saleId": "cmfzg0wya0041ux9ghfixwojm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7z000mux9g49oa9q4i",
+        "nameSnapshot": "Ginger Beer",
+        "quantity": 1,
+        "unitPrice": 5.5,
+        "lineTotal": 5.5,
+        "estimatedCost": 2.5,
+        "estimatedProfit": 3
+      },
+      {
+        "id": "cmfzg0wym0045ux9gqmwnv2pm",
+        "saleId": "cmfzg0wya0041ux9ghfixwojm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
+        "nameSnapshot": "Dragon's Breath Whiskey",
+        "quantity": 1,
+        "unitPrice": 45,
+        "lineTotal": 45,
+        "estimatedCost": 25,
+        "estimatedProfit": 20
+      },
+      {
+        "id": "cmfzg0wym0049ux9gipier1ww",
+        "saleId": "cmfzg0wya0041ux9ghfixwojm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "nameSnapshot": "Saloon Lager",
+        "quantity": 1,
+        "unitPrice": 99.00000000000001,
+        "lineTotal": 99.00000000000001,
+        "estimatedCost": 45,
+        "estimatedProfit": 54.00000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xo20095ux9gp2qtaz83",
+    "datetime": "2025-09-17T14:00:57.994Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": null,
+    "subtotal": 68.2,
+    "discount": 0,
+    "total": 68.2,
+    "cost": 31,
+    "profit": 37.2,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xoa0098ux9gkmgdnilo",
+        "saleId": "cmfzg0xo20095ux9gp2qtaz83",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 3,
+        "unitPrice": 17.6,
+        "lineTotal": 52.8,
+        "estimatedCost": 24,
+        "estimatedProfit": 28.8
+      },
+      {
+        "id": "cmfzg0xoa0099ux9guoz20qqq",
+        "saleId": "cmfzg0xo20095ux9gp2qtaz83",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7y000lux9gw81aeqxl",
+        "nameSnapshot": "Desert Amber Ale",
+        "quantity": 2,
+        "unitPrice": 7.700000000000001,
+        "lineTotal": 15.4,
+        "estimatedCost": 7,
+        "estimatedProfit": 8.400000000000002
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wt1002vux9gkpzn9xwk",
+    "datetime": "2025-09-17T09:55:27.154Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Pat Garrett",
+    "subtotal": 20,
+    "discount": 0,
+    "total": 20,
+    "cost": 15,
+    "profit": 5,
+    "commission": 5,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wt8002xux9gi0f0od1l",
+        "saleId": "cmfzg0wt1002vux9gkpzn9xwk",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnm0022ux9gvarti6g3",
+        "nameSnapshot": "Saloon Sampler",
+        "quantity": 1,
+        "unitPrice": 20,
+        "lineTotal": 20,
+        "estimatedCost": 15,
+        "estimatedProfit": 5
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xd1006tux9g617wzx9k",
+    "datetime": "2025-09-17T08:05:54.704Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Wild Bill",
+    "subtotal": 16.5,
+    "discount": 0,
+    "total": 16.5,
+    "cost": 7.5,
+    "profit": 9,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xd7006vux9gy2eyli7y",
+        "saleId": "cmfzg0xd1006tux9g617wzx9k",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9u000rux9gf3oep3l6",
+        "nameSnapshot": "Prairie Beans",
+        "quantity": 3,
+        "unitPrice": 5.5,
+        "lineTotal": 16.5,
+        "estimatedCost": 7.5,
+        "estimatedProfit": 9
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xp9009fux9gmfgnhnhx",
+    "datetime": "2025-09-17T04:49:38.794Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": "Wyatt Earp",
+    "subtotal": 158.3,
+    "discount": 0,
+    "total": 158.3,
+    "cost": 86.5,
+    "profit": 71.80000000000001,
+    "commission": 10.77,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xph009mux9gvhms2cdp",
+        "saleId": "cmfzg0xp9009fux9gmfgnhnhx",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "nameSnapshot": "Tombstone Rye",
+        "quantity": 1,
+        "unitPrice": 54,
+        "lineTotal": 54,
+        "estimatedCost": 30,
+        "estimatedProfit": 24
+      },
+      {
+        "id": "cmfzg0xph009kux9ga1373ew9",
+        "saleId": "cmfzg0xp9009fux9gmfgnhnhx",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa2000sux9giooftrtn",
+        "nameSnapshot": "Frontier Stout",
+        "quantity": 1,
+        "unitPrice": 8.8,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      },
+      {
+        "id": "cmfzg0xph009nux9g1ixp4s6b",
+        "saleId": "cmfzg0xp9009fux9gmfgnhnhx",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
+        "nameSnapshot": "Dragon's Breath Whiskey",
+        "quantity": 2,
+        "unitPrice": 45,
+        "lineTotal": 90,
+        "estimatedCost": 50,
+        "estimatedProfit": 40
+      },
+      {
+        "id": "cmfzg0xph009lux9g3t8ro2jk",
+        "saleId": "cmfzg0xp9009fux9gmfgnhnhx",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9u000rux9gf3oep3l6",
+        "nameSnapshot": "Prairie Beans",
+        "quantity": 1,
+        "unitPrice": 5.5,
+        "lineTotal": 5.5,
+        "estimatedCost": 2.5,
+        "estimatedProfit": 3
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xjo0089ux9gvmy2jq0b",
+    "datetime": "2025-09-15T17:07:03.307Z",
+    "userId": "cmfzg0w4x0009ux9g57zrowzv",
+    "customer": "Calamity Jane",
+    "subtotal": 160.6,
+    "discount": 0,
+    "total": 160.6,
+    "cost": 85,
+    "profit": 75.60000000000002,
+    "commission": 15.12,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x0009ux9g57zrowzv",
+      "name": "Silas Blackwood",
+      "username": "admin"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xjw008eux9g2hdhtdwn",
+        "saleId": "cmfzg0xjo0089ux9gvmy2jq0b",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 3,
+        "unitPrice": 39.6,
+        "lineTotal": 118.8,
+        "estimatedCost": 66,
+        "estimatedProfit": 52.80000000000001
+      },
+      {
+        "id": "cmfzg0xjw008fux9g9ly6cmft",
+        "saleId": "cmfzg0xjo0089ux9gvmy2jq0b",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa2000sux9giooftrtn",
+        "nameSnapshot": "Frontier Stout",
+        "quantity": 1,
+        "unitPrice": 8.8,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      },
+      {
+        "id": "cmfzg0xjw008dux9g2pi0l9jz",
+        "saleId": "cmfzg0xjo0089ux9gvmy2jq0b",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7z000mux9g49oa9q4i",
+        "nameSnapshot": "Ginger Beer",
+        "quantity": 3,
+        "unitPrice": 5.5,
+        "lineTotal": 16.5,
+        "estimatedCost": 7.5,
+        "estimatedProfit": 9
+      },
+      {
+        "id": "cmfzg0xkx008hux9gloz5ce22",
+        "saleId": "cmfzg0xjo0089ux9gvmy2jq0b",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9u000rux9gf3oep3l6",
+        "nameSnapshot": "Prairie Beans",
+        "quantity": 3,
+        "unitPrice": 5.5,
+        "lineTotal": 16.5,
+        "estimatedCost": 7.5,
+        "estimatedProfit": 9
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xgd007hux9gdognm5h7",
+    "datetime": "2025-09-15T15:41:56.974Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": null,
+    "subtotal": 45,
+    "discount": 0,
+    "total": 45,
+    "cost": 15,
+    "profit": 30,
+    "commission": 4.5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xgl007jux9gnvre5pot",
+        "saleId": "cmfzg0xgd007hux9gdognm5h7",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0023ux9g4yrild0f",
+        "nameSnapshot": "Saturday Night Special",
+        "quantity": 1,
+        "unitPrice": 45,
+        "lineTotal": 45,
+        "estimatedCost": 15,
+        "estimatedProfit": 30
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xqx009pux9g2dpxcayj",
+    "datetime": "2025-09-15T13:16:25.067Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Jesse James",
+    "subtotal": 119.3,
+    "discount": 0,
+    "total": 119.3,
+    "cost": 61.5,
+    "profit": 57.80000000000001,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xr2009vux9gkulsm5n0",
+        "saleId": "cmfzg0xqx009pux9g2dpxcayj",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7y000lux9gw81aeqxl",
+        "nameSnapshot": "Desert Amber Ale",
+        "quantity": 1,
+        "unitPrice": 7.700000000000001,
+        "lineTotal": 7.700000000000001,
+        "estimatedCost": 3.5,
+        "estimatedProfit": 4.200000000000001
+      },
+      {
+        "id": "cmfzg0xr2009uux9g1u3zw918",
+        "saleId": "cmfzg0xqx009pux9g2dpxcayj",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa8000tux9g2docliju",
+        "nameSnapshot": "Cactus Flower Tequila",
+        "quantity": 2,
+        "unitPrice": 36,
+        "lineTotal": 72,
+        "estimatedCost": 40,
+        "estimatedProfit": 32
+      },
+      {
+        "id": "cmfzg0xr2009tux9g98m5eyx2",
+        "saleId": "cmfzg0xqx009pux9g2dpxcayj",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9q000qux9g0l7c93qj",
+        "nameSnapshot": "Salted Pork",
+        "quantity": 3,
+        "unitPrice": 13.2,
+        "lineTotal": 39.6,
+        "estimatedCost": 18,
+        "estimatedProfit": 21.6
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xli008nux9gzfuhx0fb",
+    "datetime": "2025-09-15T12:42:45.341Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Wyatt Earp",
+    "subtotal": 196.2,
+    "discount": 0,
+    "total": 196.2,
+    "cost": 99,
+    "profit": 97.19999999999999,
+    "commission": 5,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xlv008rux9ge6e6nmkv",
+        "saleId": "cmfzg0xli008nux9gzfuhx0fb",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "nameSnapshot": "Saloon Lager",
+        "quantity": 1,
+        "unitPrice": 99.00000000000001,
+        "lineTotal": 99.00000000000001,
+        "estimatedCost": 45,
+        "estimatedProfit": 54.00000000000001
+      },
+      {
+        "id": "cmfzg0xlv008qux9gbbv168je",
+        "saleId": "cmfzg0xli008nux9gzfuhx0fb",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000gux9gtnrnxjbb",
+        "nameSnapshot": "Snake Oil Gin",
+        "quantity": 3,
+        "unitPrice": 32.4,
+        "lineTotal": 97.19999999999999,
+        "estimatedCost": 54,
+        "estimatedProfit": 43.19999999999999
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xwl00anux9gh3oyvu01",
+    "datetime": "2025-09-15T11:18:48.174Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Annie Oakley",
+    "subtotal": 15,
+    "discount": 0,
+    "total": 15,
+    "cost": 15,
+    "profit": 0,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xwx00apux9gh3leecnh",
+        "saleId": "cmfzg0xwl00anux9gh3oyvu01",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0024ux9gr3k6d7nu",
+        "nameSnapshot": "Traveler's Kit",
+        "quantity": 1,
+        "unitPrice": 15,
+        "lineTotal": 15,
+        "estimatedCost": 15,
+        "estimatedProfit": 0
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xdw0071ux9g7y6sgvwf",
+    "datetime": "2025-09-14T22:07:07.574Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Wild Bill",
+    "subtotal": 12.1,
+    "discount": 0,
+    "total": 12.1,
+    "cost": 5.5,
+    "profit": 6.600000000000001,
+    "commission": 0.9900000000000002,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xe20074ux9g4zh8pprk",
+        "saleId": "cmfzg0xdw0071ux9g7y6sgvwf",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7z000mux9g49oa9q4i",
+        "nameSnapshot": "Ginger Beer",
+        "quantity": 1,
+        "unitPrice": 5.5,
+        "lineTotal": 5.5,
+        "estimatedCost": 2.5,
+        "estimatedProfit": 3
+      },
+      {
+        "id": "cmfzg0xe20075ux9g08622m0a",
+        "saleId": "cmfzg0xdw0071ux9g7y6sgvwf",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9m000pux9gwgdhssxf",
+        "nameSnapshot": "Hardtack Biscuits",
+        "quantity": 1,
+        "unitPrice": 6.600000000000001,
+        "lineTotal": 6.600000000000001,
+        "estimatedCost": 3,
+        "estimatedProfit": 3.600000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x6z005lux9gvs5yl31t",
+    "datetime": "2025-09-14T16:02:05.827Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": "Wyatt Earp",
+    "subtotal": 224.4,
+    "discount": 0,
+    "total": 224.4,
+    "cost": 102,
+    "profit": 122.4,
+    "commission": 5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x74005oux9gff60shqq",
+        "saleId": "cmfzg0x6z005lux9gvs5yl31t",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
+        "nameSnapshot": "Saloon Lager",
+        "quantity": 2,
+        "unitPrice": 99.00000000000001,
+        "lineTotal": 198,
+        "estimatedCost": 90,
+        "estimatedProfit": 108
+      },
+      {
+        "id": "cmfzg0x74005pux9g23uq4mk9",
+        "saleId": "cmfzg0x6z005lux9gvs5yl31t",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9q000qux9g0l7c93qj",
+        "nameSnapshot": "Salted Pork",
+        "quantity": 2,
+        "unitPrice": 13.2,
+        "lineTotal": 26.4,
+        "estimatedCost": 12,
+        "estimatedProfit": 14.4
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x3f004xux9gmx4wgr6m",
+    "datetime": "2025-09-14T15:52:23.379Z",
+    "userId": "cmfzg0w4x0009ux9g57zrowzv",
+    "customer": "Annie Oakley",
+    "subtotal": 45,
+    "discount": 0,
+    "total": 45,
+    "cost": 15,
+    "profit": 30,
+    "commission": 3,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x0009ux9g57zrowzv",
+      "name": "Silas Blackwood",
+      "username": "admin"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x3m004zux9gqhs9rcl8",
+        "saleId": "cmfzg0x3f004xux9gmx4wgr6m",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0023ux9g4yrild0f",
+        "nameSnapshot": "Saturday Night Special",
+        "quantity": 1,
+        "unitPrice": 45,
+        "lineTotal": 45,
+        "estimatedCost": 15,
+        "estimatedProfit": 30
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xel0077ux9gkc6a4ndm",
+    "datetime": "2025-09-14T09:39:28.931Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": null,
+    "subtotal": 131.4,
+    "discount": 0,
+    "total": 131.4,
+    "cost": 63,
+    "profit": 68.4,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xev007fux9gw098m9mo",
+        "saleId": "cmfzg0xel0077ux9gkc6a4ndm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9q000qux9g0l7c93qj",
+        "nameSnapshot": "Salted Pork",
+        "quantity": 1,
+        "unitPrice": 13.2,
+        "lineTotal": 13.2,
+        "estimatedCost": 6,
+        "estimatedProfit": 7.200000000000001
+      },
+      {
+        "id": "cmfzg0xev007eux9g42j2994w",
+        "saleId": "cmfzg0xel0077ux9gkc6a4ndm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w96000nux9ggiqyydnx",
+        "nameSnapshot": "Simple Syrup",
+        "quantity": 3,
+        "unitPrice": 11,
+        "lineTotal": 33,
+        "estimatedCost": 15,
+        "estimatedProfit": 18
+      },
+      {
+        "id": "cmfzg0xev007dux9gj5b6o5hh",
+        "saleId": "cmfzg0xel0077ux9gkc6a4ndm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 3,
+        "unitPrice": 17.6,
+        "lineTotal": 52.8,
+        "estimatedCost": 24,
+        "estimatedProfit": 28.8
+      },
+      {
+        "id": "cmfzg0xev007cux9gtajr61k7",
+        "saleId": "cmfzg0xel0077ux9gkc6a4ndm",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000gux9gtnrnxjbb",
+        "nameSnapshot": "Snake Oil Gin",
+        "quantity": 1,
+        "unitPrice": 32.4,
+        "lineTotal": 32.4,
+        "estimatedCost": 18,
+        "estimatedProfit": 14.4
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0x4r0057ux9gmvb7wm1c",
+    "datetime": "2025-09-14T04:37:15.705Z",
+    "userId": "cmfzg0w4x0009ux9g57zrowzv",
+    "customer": null,
+    "subtotal": 39.6,
+    "discount": 4,
+    "total": 35.6,
+    "cost": 18,
+    "profit": 17.6,
+    "commission": 1.76,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x0009ux9g57zrowzv",
+      "name": "Silas Blackwood",
+      "username": "admin"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0x4w0059ux9gft22ypdw",
+        "saleId": "cmfzg0x4r0057ux9gmvb7wm1c",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9q000qux9g0l7c93qj",
+        "nameSnapshot": "Salted Pork",
+        "quantity": 3,
+        "unitPrice": 13.2,
+        "lineTotal": 39.6,
+        "estimatedCost": 18,
+        "estimatedProfit": 21.6
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wrl002hux9g9ek3uv40",
+    "datetime": "2025-09-14T03:46:20.815Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": "Buffalo Bill",
+    "subtotal": 59.40000000000001,
+    "discount": 0,
+    "total": 59.40000000000001,
+    "cost": 27,
+    "profit": 32.40000000000001,
+    "commission": 5,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wrt002kux9ggicati4r",
+        "saleId": "cmfzg0wrl002hux9g9ek3uv40",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 3,
+        "unitPrice": 17.6,
+        "lineTotal": 52.8,
+        "estimatedCost": 24,
+        "estimatedProfit": 28.8
+      },
+      {
+        "id": "cmfzg0wrt002lux9ggt39kymi",
+        "saleId": "cmfzg0wrl002hux9g9ek3uv40",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9m000pux9gwgdhssxf",
+        "nameSnapshot": "Hardtack Biscuits",
+        "quantity": 1,
+        "unitPrice": 6.600000000000001,
+        "lineTotal": 6.600000000000001,
+        "estimatedCost": 3,
+        "estimatedProfit": 3.600000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xuw00adux9g38vrq4um",
+    "datetime": "2025-09-14T03:43:04.941Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Doc Holiday",
+    "subtotal": 134.4,
+    "discount": 0,
+    "total": 134.4,
+    "cost": 72,
+    "profit": 62.40000000000001,
+    "commission": 9.360000000000001,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xv500agux9g6pgw2zp9",
+        "saleId": "cmfzg0xuw00adux9g38vrq4um",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa2000sux9giooftrtn",
+        "nameSnapshot": "Frontier Stout",
+        "quantity": 3,
+        "unitPrice": 8.8,
+        "lineTotal": 26.4,
+        "estimatedCost": 12,
+        "estimatedProfit": 14.4
+      },
+      {
+        "id": "cmfzg0xv500ahux9gc7k6tmgi",
+        "saleId": "cmfzg0xuw00adux9g38vrq4um",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "nameSnapshot": "Tombstone Rye",
+        "quantity": 2,
+        "unitPrice": 54,
+        "lineTotal": 108,
+        "estimatedCost": 60,
+        "estimatedProfit": 48
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xbm006jux9gxir5vme4",
+    "datetime": "2025-09-14T01:52:16.897Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": "Doc Holiday",
+    "subtotal": 222.6,
+    "discount": 0,
+    "total": 222.6,
+    "cost": 123,
+    "profit": 99.59999999999997,
+    "commission": 14.93999999999999,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xbq006pux9gitblwksy",
+        "saleId": "cmfzg0xbm006jux9gxir5vme4",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9m000pux9gwgdhssxf",
+        "nameSnapshot": "Hardtack Biscuits",
+        "quantity": 1,
+        "unitPrice": 6.600000000000001,
+        "lineTotal": 6.600000000000001,
+        "estimatedCost": 3,
+        "estimatedProfit": 3.600000000000001
+      },
+      {
+        "id": "cmfzg0xbq006rux9ghbxvhqsc",
+        "saleId": "cmfzg0xbm006jux9gxir5vme4",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 2,
+        "unitPrice": 39.6,
+        "lineTotal": 79.2,
+        "estimatedCost": 44,
+        "estimatedProfit": 35.2
+      },
+      {
+        "id": "cmfzg0xbq006oux9gi2x6tdkb",
+        "saleId": "cmfzg0xbm006jux9gxir5vme4",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000gux9gtnrnxjbb",
+        "nameSnapshot": "Snake Oil Gin",
+        "quantity": 3,
+        "unitPrice": 32.4,
+        "lineTotal": 97.19999999999999,
+        "estimatedCost": 54,
+        "estimatedProfit": 43.19999999999999
+      },
+      {
+        "id": "cmfzg0xbq006qux9gmnzdeoji",
+        "saleId": "cmfzg0xbm006jux9gxir5vme4",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 1,
+        "unitPrice": 39.6,
+        "lineTotal": 39.6,
+        "estimatedCost": 22,
+        "estimatedProfit": 17.6
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xsb009xux9gus5v8cuw",
+    "datetime": "2025-09-13T21:34:37.576Z",
+    "userId": "cmfzg0w4w0007ux9gd8icj13k",
+    "customer": null,
+    "subtotal": 363.6,
+    "discount": 4,
+    "total": 359.6,
+    "cost": 202,
+    "profit": 157.6,
+    "commission": 23.64,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4w0007ux9gd8icj13k",
+      "name": "Belle \"Songbird\" Davis",
+      "username": "belle"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xsi00a3ux9gjad4jueg",
+        "saleId": "cmfzg0xsb009xux9gus5v8cuw",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "nameSnapshot": "Tombstone Rye",
+        "quantity": 3,
+        "unitPrice": 54,
+        "lineTotal": 162,
+        "estimatedCost": 90,
+        "estimatedProfit": 72
+      },
+      {
+        "id": "cmfzg0xsi00a2ux9g2o60rv17",
+        "saleId": "cmfzg0xsb009xux9gus5v8cuw",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "nameSnapshot": "Tombstone Rye",
+        "quantity": 3,
+        "unitPrice": 54,
+        "lineTotal": 162,
+        "estimatedCost": 90,
+        "estimatedProfit": 72
+      },
+      {
+        "id": "cmfzg0xsi00a0ux9gn91c45nn",
+        "saleId": "cmfzg0xsb009xux9gus5v8cuw",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 1,
+        "unitPrice": 39.6,
+        "lineTotal": 39.6,
+        "estimatedCost": 22,
+        "estimatedProfit": 17.6
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wti002zux9g7520tk55",
+    "datetime": "2025-09-13T16:59:37.948Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": "Wyatt Earp",
+    "subtotal": 162.2,
+    "discount": 0,
+    "total": 162.2,
+    "cost": 89,
+    "profit": 73.20000000000002,
+    "commission": 14.64,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wtq0033ux9gf8ouibny",
+        "saleId": "cmfzg0wti002zux9g7520tk55",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 3,
+        "unitPrice": 39.6,
+        "lineTotal": 118.8,
+        "estimatedCost": 66,
+        "estimatedProfit": 52.80000000000001
+      },
+      {
+        "id": "cmfzg0wtq0034ux9gipqdio1h",
+        "saleId": "cmfzg0wti002zux9g7520tk55",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9u000rux9gf3oep3l6",
+        "nameSnapshot": "Prairie Beans",
+        "quantity": 2,
+        "unitPrice": 5.5,
+        "lineTotal": 11,
+        "estimatedCost": 5,
+        "estimatedProfit": 6
+      },
+      {
+        "id": "cmfzg0wtq0035ux9g0aq0q72l",
+        "saleId": "cmfzg0wti002zux9g7520tk55",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000gux9gtnrnxjbb",
+        "nameSnapshot": "Snake Oil Gin",
+        "quantity": 1,
+        "unitPrice": 32.4,
+        "lineTotal": 32.4,
+        "estimatedCost": 18,
+        "estimatedProfit": 14.4
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xdi006xux9gjswqvusv",
+    "datetime": "2025-09-13T08:00:18.484Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": null,
+    "subtotal": 45,
+    "discount": 0,
+    "total": 45,
+    "cost": 15,
+    "profit": 30,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xdn006zux9g3zt22l6x",
+        "saleId": "cmfzg0xdi006xux9gjswqvusv",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0023ux9g4yrild0f",
+        "nameSnapshot": "Saturday Night Special",
+        "quantity": 1,
+        "unitPrice": 45,
+        "lineTotal": 45,
+        "estimatedCost": 15,
+        "estimatedProfit": 30
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xn7008zux9gu6t4en27",
+    "datetime": "2025-09-13T04:31:28.013Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Calamity Jane",
+    "subtotal": 42.6,
+    "discount": 0,
+    "total": 42.6,
+    "cost": 23,
+    "profit": 19.6,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xni0091ux9gewdwqba4",
+        "saleId": "cmfzg0xn7008zux9gu6t4en27",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9m000pux9gwgdhssxf",
+        "nameSnapshot": "Hardtack Biscuits",
+        "quantity": 1,
+        "unitPrice": 6.600000000000001,
+        "lineTotal": 6.600000000000001,
+        "estimatedCost": 3,
+        "estimatedProfit": 3.600000000000001
+      },
+      {
+        "id": "cmfzg0xni0093ux9g8ct9giyq",
+        "saleId": "cmfzg0xn7008zux9gu6t4en27",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa8000tux9g2docliju",
+        "nameSnapshot": "Cactus Flower Tequila",
+        "quantity": 1,
+        "unitPrice": 36,
+        "lineTotal": 36,
+        "estimatedCost": 20,
+        "estimatedProfit": 16
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wwg003lux9gsawmzyey",
+    "datetime": "2025-09-12T23:46:16.328Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": "Doc Holiday",
+    "subtotal": 89.6,
+    "discount": 0,
+    "total": 89.6,
+    "cost": 48,
+    "profit": 41.59999999999999,
+    "commission": 4.159999999999999,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wwm003oux9g791gxlei",
+        "saleId": "cmfzg0wwg003lux9gsawmzyey",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa8000tux9g2docliju",
+        "nameSnapshot": "Cactus Flower Tequila",
+        "quantity": 2,
+        "unitPrice": 36,
+        "lineTotal": 72,
+        "estimatedCost": 40,
+        "estimatedProfit": 32
+      },
+      {
+        "id": "cmfzg0wwm003pux9gbf88iibw",
+        "saleId": "cmfzg0wwg003lux9gsawmzyey",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 1,
+        "unitPrice": 17.6,
+        "lineTotal": 17.6,
+        "estimatedCost": 8,
+        "estimatedProfit": 9.600000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0wut0037ux9gw0i5b1y0",
+    "datetime": "2025-09-12T22:31:29.924Z",
+    "userId": "cmfzg0w4s0004ux9gxqufw9pt",
+    "customer": "Butch Cassidy",
+    "subtotal": 13.2,
+    "discount": 0,
+    "total": 13.2,
+    "cost": 6,
+    "profit": 7.200000000000001,
+    "commission": 5,
+    "paymentType": "CASH",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4s0004ux9gxqufw9pt",
+      "name": "Jake \"Mustang\" Miller",
+      "username": "jake"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wv00039ux9gyt9dx1rp",
+        "saleId": "cmfzg0wut0037ux9gw0i5b1y0",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 3,
+        "unitPrice": 4.4,
+        "lineTotal": 13.2,
+        "estimatedCost": 6,
+        "estimatedProfit": 7.200000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xiq007zux9glt14oh8t",
+    "datetime": "2025-09-12T19:04:20.566Z",
+    "userId": "cmfzg0w4x000bux9gc8a38u05",
+    "customer": null,
+    "subtotal": 75.6,
+    "discount": 0,
+    "total": 75.6,
+    "cost": 42,
+    "profit": 33.59999999999999,
+    "commission": 5,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000bux9gc8a38u05",
+      "name": "Frank \"Iron Horse\" Thompson",
+      "username": "frank"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xiz0083ux9g4olcwyba",
+        "saleId": "cmfzg0xiq007zux9glt14oh8t",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000fux9gpjjclv4u",
+        "nameSnapshot": "Prairie Fire Bourbon",
+        "quantity": 1,
+        "unitPrice": 39.6,
+        "lineTotal": 39.6,
+        "estimatedCost": 22,
+        "estimatedProfit": 17.6
+      },
+      {
+        "id": "cmfzg0xiz0082ux9gfqzgel76",
+        "saleId": "cmfzg0xiq007zux9glt14oh8t",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa8000tux9g2docliju",
+        "nameSnapshot": "Cactus Flower Tequila",
+        "quantity": 1,
+        "unitPrice": 36,
+        "lineTotal": 36,
+        "estimatedCost": 20,
+        "estimatedProfit": 16
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xb5006dux9gbvp0xdwo",
+    "datetime": "2025-09-12T13:52:29.476Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Butch Cassidy",
+    "subtotal": 26.4,
+    "discount": 0,
+    "total": 26.4,
+    "cost": 12,
+    "profit": 14.4,
+    "commission": 2.16,
+    "paymentType": "LEDGER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xba006gux9guhzd4zhq",
+        "saleId": "cmfzg0xb5006dux9gbvp0xdwo",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w7w000jux9gb32iaqsa",
+        "nameSnapshot": "Sarsaparilla",
+        "quantity": 2,
+        "unitPrice": 4.4,
+        "lineTotal": 8.8,
+        "estimatedCost": 4,
+        "estimatedProfit": 4.800000000000001
+      },
+      {
+        "id": "cmfzg0xba006hux9gb2d5f5f5",
+        "saleId": "cmfzg0xb5006dux9gbvp0xdwo",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
+        "nameSnapshot": "Beef Jerky",
+        "quantity": 1,
+        "unitPrice": 17.6,
+        "lineTotal": 17.6,
+        "estimatedCost": 8,
+        "estimatedProfit": 9.600000000000001
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0xvs00ajux9gde3d6zzg",
+    "datetime": "2025-09-11T22:32:49.682Z",
+    "userId": "cmfzg0w4x000dux9g5cwgii8x",
+    "customer": "Annie Oakley",
+    "subtotal": 35,
+    "discount": 0,
+    "total": 35,
+    "cost": 15,
+    "profit": 20,
+    "commission": 3,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000dux9g5cwgii8x",
+      "name": "Martha \"Red\" O'Connor",
+      "username": "red"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0xw900alux9ggnoucftp",
+        "saleId": "cmfzg0xvs00ajux9gde3d6zzg",
+        "sourceType": "PACKAGE",
+        "sourceId": "cmfzg0wnn0025ux9gtodvowz9",
+        "nameSnapshot": "Poker Night Pack",
+        "quantity": 1,
+        "unitPrice": 35,
+        "lineTotal": 35,
+        "estimatedCost": 15,
+        "estimatedProfit": 20
+      }
+    ]
+  },
+  {
+    "id": "cmfzg0ww1003hux9gamxhl0jx",
+    "datetime": "2025-09-11T22:28:06.045Z",
+    "userId": "cmfzg0w4x000eux9gwxo3f8on",
+    "customer": "Pat Garrett",
+    "subtotal": 26.4,
+    "discount": 0,
+    "total": 26.4,
+    "cost": 12,
+    "profit": 14.4,
+    "commission": 1.44,
+    "paymentType": "OTHER",
+    "notes": null,
+    "user": {
+      "id": "cmfzg0w4x000eux9gwxo3f8on",
+      "name": "Eliza \"Doc\" Morrison",
+      "username": "doc"
+    },
+    "lines": [
+      {
+        "id": "cmfzg0wwa003jux9gthtwed1a",
+        "saleId": "cmfzg0ww1003hux9gamxhl0jx",
+        "sourceType": "ITEM",
+        "sourceId": "cmfzg0wa2000sux9giooftrtn",
+        "nameSnapshot": "Frontier Stout",
+        "quantity": 3,
+        "unitPrice": 8.8,
+        "lineTotal": 26.4,
+        "estimatedCost": 12,
+        "estimatedProfit": 14.4
+      }
+    ]
+  }
+]

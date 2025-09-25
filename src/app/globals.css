@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Dragon Saloon Color Palette */
+  --saddle: #5E3B2E;
+  --gold: #C08A2C;
+  --beige: #DCC7A1;
+  --charcoal: #1F1B18;
+  --crimson: #8E1B1B;
+
+  /* Light theme */
+  --background: #F5F2ED;
+  --foreground: var(--charcoal);
+  --card: #ffffff;
+  --card-foreground: var(--charcoal);
+  --primary: var(--saddle);
+  --primary-foreground: #ffffff;
+  --secondary: var(--gold);
+  --secondary-foreground: var(--charcoal);
+  --accent: var(--crimson);
+  --accent-foreground: #ffffff;
+  --muted: var(--beige);
+  --muted-foreground: var(--saddle);
+  --border: #E5D5B7;
+  --input: var(--border);
+  --ring: var(--gold);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Custom Dragon Saloon colors */
+  --color-saddle: var(--saddle);
+  --color-gold: var(--gold);
+  --color-beige: var(--beige);
+  --color-charcoal: var(--charcoal);
+  --color-crimson: var(--crimson);
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Cinzel', serif;
+}
+
+[data-theme="dark"] {
+  --background: var(--charcoal);
+  --foreground: var(--beige);
+  --card: #2A241F;
+  --card-foreground: var(--beige);
+  --primary: var(--gold);
+  --primary-foreground: var(--charcoal);
+  --secondary: var(--saddle);
+  --secondary-foreground: var(--beige);
+  --muted: #3A332A;
+  --muted-foreground: #A59885;
+  --border: #4A3F36;
+  --input: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--saddle);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* Western-style decorative elements */
+.western-border {
+  border: 2px solid var(--gold);
+  box-shadow:
+    inset 0 0 0 2px var(--saddle),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wood-texture {
+  background-image:
+    linear-gradient(45deg, rgba(94, 59, 46, 0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(94, 59, 46, 0.1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(94, 59, 46, 0.1) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(94, 59, 46, 0.1) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}

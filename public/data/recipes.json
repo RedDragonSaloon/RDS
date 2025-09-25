@@ -1,0 +1,284 @@
+[
+  {
+    "id": "cmfzg0whl001aux9gnukis3hs",
+    "name": "Trail Mix Special",
+    "description": "Perfect snack for the road",
+    "category": "Food",
+    "difficulty": 1,
+    "stepsMarkdown": "\n1. Mix jerky pieces with nuts\n2. Add dried fruits if available\n3. Serve in small bowl\n        ",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2025-09-25T13:22:57.273Z",
+    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "ingredients": [],
+    "calculatedCost": 0,
+    "suggestedSellPrice": 0,
+    "suggestedMargin": 60
+  },
+  {
+    "id": "cmfzg0whl001eux9gxuocz30d",
+    "name": "Prairie Sunrise",
+    "description": "A refreshing non-alcoholic drink",
+    "category": "Non-Alcoholic",
+    "difficulty": 1,
+    "stepsMarkdown": "\n1. Fill glass with ice\n2. Add sarsaparilla\n3. Top with ginger beer\n4. Stir gently\n5. Garnish with orange slice\n        ",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2025-09-25T13:22:57.273Z",
+    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "ingredients": [
+      {
+        "id": "cmfzg0wjs001uux9g5k58kkik",
+        "recipeId": "cmfzg0whl001eux9gxuocz30d",
+        "itemId": "cmfzg0w7z000mux9g49oa9q4i",
+        "quantity": 0.5,
+        "unitOverride": "bottle",
+        "item": {
+          "id": "cmfzg0w7z000mux9g49oa9q4i",
+          "name": "Ginger Beer",
+          "category": "Mixers",
+          "unit": "bottle",
+          "buyPrice": 2.5,
+          "supplier": "General Store",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.926Z"
+        }
+      },
+      {
+        "id": "cmfzg0wjr001qux9gj7dnftjn",
+        "recipeId": "cmfzg0whl001eux9gxuocz30d",
+        "itemId": "cmfzg0w7w000jux9gb32iaqsa",
+        "quantity": 0.5,
+        "unitOverride": "bottle",
+        "item": {
+          "id": "cmfzg0w7w000jux9gb32iaqsa",
+          "name": "Sarsaparilla",
+          "category": "Non-Alcoholic",
+          "unit": "bottle",
+          "buyPrice": 2,
+          "supplier": "General Store",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.925Z"
+        }
+      }
+    ],
+    "calculatedCost": 2.25,
+    "suggestedSellPrice": 5.625,
+    "suggestedMargin": 60
+  },
+  {
+    "id": "cmfzg0whl001cux9gq7s6oabn",
+    "name": "Dragon's Fire Cocktail",
+    "description": "Our signature cocktail with a spicy kick",
+    "category": "Cocktails",
+    "difficulty": 3,
+    "stepsMarkdown": "\n1. Add 2 oz Dragon's Breath Whiskey to shaker\n2. Add 0.5 oz simple syrup\n3. Add 2 dashes of hot sauce\n4. Shake with ice\n5. Strain into glass\n6. Garnish with dried chili\n        ",
+    "imageUrl": "/images/dragons-fire.jpg",
+    "isActive": true,
+    "createdAt": "2025-09-25T13:22:57.273Z",
+    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "ingredients": [
+      {
+        "id": "cmfzg0wjq001gux9gi4kh2uom",
+        "recipeId": "cmfzg0whl001cux9gq7s6oabn",
+        "itemId": "cmfzg0w7w000kux9gk5tz9ktt",
+        "quantity": 2,
+        "unitOverride": "oz",
+        "item": {
+          "id": "cmfzg0w7w000kux9gk5tz9ktt",
+          "name": "Dragon's Breath Whiskey",
+          "category": "Spirits",
+          "unit": "bottle",
+          "buyPrice": 25,
+          "supplier": "Western Distillery Co.",
+          "notes": "Our signature whiskey with a fiery finish",
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.925Z"
+        }
+      },
+      {
+        "id": "cmfzg0wjq001iux9g7udgjds9",
+        "recipeId": "cmfzg0whl001cux9gq7s6oabn",
+        "itemId": "cmfzg0w96000nux9ggiqyydnx",
+        "quantity": 0.5,
+        "unitOverride": "oz",
+        "item": {
+          "id": "cmfzg0w96000nux9ggiqyydnx",
+          "name": "Simple Syrup",
+          "category": "Mixers",
+          "unit": "bottle",
+          "buyPrice": 5,
+          "supplier": "Kitchen Supply Co.",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.970Z"
+        }
+      }
+    ],
+    "calculatedCost": 52.5,
+    "suggestedSellPrice": 131.25,
+    "suggestedMargin": 60
+  },
+  {
+    "id": "cmfzg0whl001dux9gwufs6n4l",
+    "name": "Cowboy's Plate",
+    "description": "Hearty meal for hungry travelers",
+    "category": "Food",
+    "difficulty": 2,
+    "stepsMarkdown": "\n1. Slice beef jerky into strips\n2. Warm hardtack biscuits\n3. Heat salted pork in cast iron pan\n4. Serve beans on the side\n5. Arrange on wooden plate\n        ",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2025-09-25T13:22:57.273Z",
+    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "ingredients": [
+      {
+        "id": "cmfzg0wk0001wux9gitct64vg",
+        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
+        "itemId": "cmfzg0w9m000pux9gwgdhssxf",
+        "quantity": 2,
+        "unitOverride": "piece",
+        "item": {
+          "id": "cmfzg0w9m000pux9gwgdhssxf",
+          "name": "Hardtack Biscuits",
+          "category": "Food",
+          "unit": "dozen",
+          "buyPrice": 3,
+          "supplier": "Baker's Dozen",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.986Z"
+        }
+      },
+      {
+        "id": "cmfzg0wk8001yux9gy71jxkca",
+        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
+        "itemId": "cmfzg0w9q000qux9g0l7c93qj",
+        "quantity": 0.5,
+        "unitOverride": "pound",
+        "item": {
+          "id": "cmfzg0w9q000qux9g0l7c93qj",
+          "name": "Salted Pork",
+          "category": "Food",
+          "unit": "pound",
+          "buyPrice": 6,
+          "supplier": "Frontier Meat Co.",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.990Z"
+        }
+      },
+      {
+        "id": "cmfzg0wke0020ux9gl4ez5d22",
+        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
+        "itemId": "cmfzg0w9u000rux9gf3oep3l6",
+        "quantity": 0.5,
+        "unitOverride": "pound",
+        "item": {
+          "id": "cmfzg0w9u000rux9gf3oep3l6",
+          "name": "Prairie Beans",
+          "category": "Food",
+          "unit": "pound",
+          "buyPrice": 2.5,
+          "supplier": "General Store",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.995Z"
+        }
+      },
+      {
+        "id": "cmfzg0wjr001rux9glk5nxyi9",
+        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
+        "itemId": "cmfzg0w9b000oux9grwu8edl6",
+        "quantity": 0.25,
+        "unitOverride": "pound",
+        "item": {
+          "id": "cmfzg0w9b000oux9grwu8edl6",
+          "name": "Beef Jerky",
+          "category": "Food",
+          "unit": "pound",
+          "buyPrice": 8,
+          "supplier": "Frontier Meat Co.",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.976Z"
+        }
+      }
+    ],
+    "calculatedCost": 12.25,
+    "suggestedSellPrice": 30.625,
+    "suggestedMargin": 60
+  },
+  {
+    "id": "cmfzg0whl001bux9gmg4crqvr",
+    "name": "Tombstone Mule",
+    "description": "A Western twist on the classic Moscow Mule",
+    "category": "Cocktails",
+    "difficulty": 2,
+    "stepsMarkdown": "\n1. Add 2 oz Tombstone Rye to copper mug\n2. Add 0.5 oz simple syrup\n3. Add juice of half a lime\n4. Fill with ginger beer\n5. Stir gently\n6. Garnish with lime wedge\n        ",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2025-09-25T13:22:57.273Z",
+    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "ingredients": [
+      {
+        "id": "cmfzg0wjq001kux9gc49ejfe3",
+        "recipeId": "cmfzg0whl001bux9gmg4crqvr",
+        "itemId": "cmfzg0w7w000iux9g3rfnvmr9",
+        "quantity": 2,
+        "unitOverride": "oz",
+        "item": {
+          "id": "cmfzg0w7w000iux9g3rfnvmr9",
+          "name": "Tombstone Rye",
+          "category": "Spirits",
+          "unit": "bottle",
+          "buyPrice": 30,
+          "supplier": "Arizona Spirits",
+          "notes": "Premium rye whiskey",
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.925Z"
+        }
+      },
+      {
+        "id": "cmfzg0wjr001sux9gh6dl0g05",
+        "recipeId": "cmfzg0whl001bux9gmg4crqvr",
+        "itemId": "cmfzg0w96000nux9ggiqyydnx",
+        "quantity": 0.5,
+        "unitOverride": "oz",
+        "item": {
+          "id": "cmfzg0w96000nux9ggiqyydnx",
+          "name": "Simple Syrup",
+          "category": "Mixers",
+          "unit": "bottle",
+          "buyPrice": 5,
+          "supplier": "Kitchen Supply Co.",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.970Z"
+        }
+      },
+      {
+        "id": "cmfzg0wjq001mux9g4e7f53pp",
+        "recipeId": "cmfzg0whl001bux9gmg4crqvr",
+        "itemId": "cmfzg0w7z000mux9g49oa9q4i",
+        "quantity": 1,
+        "unitOverride": "bottle",
+        "item": {
+          "id": "cmfzg0w7z000mux9g49oa9q4i",
+          "name": "Ginger Beer",
+          "category": "Mixers",
+          "unit": "bottle",
+          "buyPrice": 2.5,
+          "supplier": "General Store",
+          "notes": null,
+          "isActive": true,
+          "lastUpdated": "2025-09-25T13:22:56.926Z"
+        }
+      }
+    ],
+    "calculatedCost": 65,
+    "suggestedSellPrice": 162.5,
+    "suggestedMargin": 60
+  }
+]

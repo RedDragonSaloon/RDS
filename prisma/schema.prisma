@@ -1,0 +1,216 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dragon_saloon.db"
+}
+
+model User {
+  id                String    @id @default(cuid())
+  name              String
+  username          String    @unique
+  email             String?   @unique
+  passwordHash      String
+  role              Role      @default(VIEWER)
+  status            UserStatus @default(ACTIVE)
+  commissionRuleId  String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  commissionRule    CommissionRule? @relation(fields: [commissionRuleId], references: [id])
+  sales             Sale[]
+  auditLogs         AuditLog[]
+
+  @@map("users")
+}
+
+model CommissionRule {
+  id        String           @id @default(cuid())
+  name      String
+  type      CommissionType
+  params    Json             // JSON object for flexible rule parameters
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  users     User[]
+
+  @@map("commission_rules")
+}
+
+model Item {
+  id            String    @id @default(cuid())
+  name          String
+  category      String
+  unit          String    // bottle, glass, plate, etc.
+  buyPrice      Float
+  supplier      String?
+  notes         String?
+  isActive      Boolean   @default(true)
+  lastUpdated   DateTime  @default(now()) @updatedAt
+
+  recipeIngredients RecipeIngredient[]
+  sellPrices        SellPrice[]
+
+  @@map("items")
+}
+
+model Recipe {
+  id          String    @id @default(cuid())
+  name        String
+  description String?
+  category    String
+  difficulty  Int       @default(1) // 1-5
+  stepsMarkdown String?
+  imageUrl    String?
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  ingredients  RecipeIngredient[]
+
+  @@map("recipes")
+}
+
+model RecipeIngredient {
+  id           String  @id @default(cuid())
+  recipeId     String
+  itemId       String
+  quantity     Float
+  unitOverride String? // override item's default unit if needed
+
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  item   Item   @relation(fields: [itemId], references: [id])
+
+  @@map("recipe_ingredients")
+}
+
+model SellPrice {
+  id            String    @id @default(cuid())
+  itemId        String
+  unit          String
+  sellPrice     Float
+  effectiveFrom DateTime  @default(now())
+  effectiveTo   DateTime?
+  notes         String?
+
+  item Item @relation(fields: [itemId], references: [id])
+
+  @@map("sell_prices")
+}
+
+model Package {
+  id              String    @id @default(cuid())
+  name            String
+  description     String?
+  isActive        Boolean   @default(true)
+  bundleSellPrice Float
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  items     PackageItem[]
+
+  @@map("packages")
+}
+
+model PackageItem {
+  id         String     @id @default(cuid())
+  packageId  String
+  sourceType SourceType // item or recipe
+  sourceId   String     // itemId or recipeId
+  quantity   Float
+
+  package Package @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  @@map("package_items")
+}
+
+model Sale {
+  id          String      @id @default(cuid())
+  datetime    DateTime    @default(now())
+  userId      String
+  customer    String?
+  subtotal    Float
+  discount    Float       @default(0)
+  total       Float
+  cost        Float
+  profit      Float
+  commission  Float
+  paymentType PaymentType @default(CASH)
+  notes       String?
+
+  user  User       @relation(fields: [userId], references: [id])
+  lines SaleLine[]
+
+  @@map("sales")
+}
+
+model SaleLine {
+  id            String     @id @default(cuid())
+  saleId        String
+  sourceType    SourceType // item, package, or recipe
+  sourceId      String
+  nameSnapshot  String     // snapshot of name at time of sale
+  quantity      Float
+  unitPrice     Float
+  lineTotal     Float
+  estimatedCost Float
+  estimatedProfit Float
+
+  sale Sale @relation(fields: [saleId], references: [id], onDelete: Cascade)
+
+  @@map("sale_lines")
+}
+
+model Config {
+  key   String @id
+  value String
+
+  @@map("config")
+}
+
+model AuditLog {
+  id        String    @id @default(cuid())
+  userId    String?
+  action    String    // CREATE, UPDATE, DELETE
+  table     String    // table name
+  recordId  String    // ID of affected record
+  oldData   Json?     // previous values
+  newData   Json?     // new values
+  timestamp DateTime  @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@map("audit_logs")
+}
+
+enum Role {
+  ADMIN
+  MANAGER
+  STAFF
+  VIEWER
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum CommissionType {
+  FLAT_PER_SALE
+  PERCENT_OF_PROFIT
+  TIERED
+}
+
+enum SourceType {
+  ITEM
+  PACKAGE
+  RECIPE
+}
+
+enum PaymentType {
+  CASH
+  LEDGER
+  OTHER
+}
