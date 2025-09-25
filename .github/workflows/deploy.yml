@@ -24,7 +24,7 @@
         run: npm ci
 
       - name: Build application
-        run: next build
+        run: npx next build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
