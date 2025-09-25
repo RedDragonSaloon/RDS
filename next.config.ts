@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: '',
-  basePath: '',
+  assetPrefix: '/RDS',
+  basePath: '/RDS',
   eslint: {
     ignoreDuringBuilds: true,
   },
