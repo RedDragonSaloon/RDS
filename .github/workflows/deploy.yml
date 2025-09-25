@@ -23,11 +23,8 @@
       - name: Install dependencies
         run: npm ci
 
-      - name: Build static data
-        run: npm run build:data
-
       - name: Build application
-        run: npm run build
+        run: next build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
