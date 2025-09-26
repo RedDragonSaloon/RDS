@@ -24,13 +24,13 @@ export function MainLayout({ children, user: propUser }: MainLayoutProps) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-card border-t border-border wood-texture mt-16">
+      <footer className="bg-card border-t border-border dragon-scale-texture mt-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="font-serif font-semibold text-lg mb-4">The Dragon Saloon</h3>
               <p className="text-muted-foreground">
-                Serving the finest drinks and fairest deals in the territory since 1885.
+                Serving the finest drinks and fairest deals in the territory since 1912.
               </p>
             </div>
             <div>

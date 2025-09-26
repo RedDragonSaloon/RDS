@@ -67,7 +67,7 @@ export default function LoginPage() {
     <MainLayout user={null}>
       <div className="max-w-md mx-auto space-y-8">
         {/* Login Form */}
-        <Card className="western-border">
+        <Card className="dragon-border">
           <CardHeader className="text-center">
             <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl text-primary-foreground font-serif">🐉</span>

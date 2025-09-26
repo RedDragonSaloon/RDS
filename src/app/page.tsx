@@ -33,7 +33,7 @@ export default function Home() {
     <MainLayout user={mockUser}>
       {/* Hero Section */}
       <section className="text-center mb-16">
-        <div className="relative bg-gradient-to-r from-primary to-secondary p-12 rounded-lg western-border mb-8 wood-texture">
+        <div className="relative bg-gradient-to-r from-primary to-secondary p-12 rounded-lg dragon-border mb-8 dragon-scale-texture">
           <div className="absolute inset-0 bg-black/10 rounded-lg"></div>
           <div className="relative z-10">
             <h1 className="font-serif text-5xl md:text-6xl font-bold text-white mb-4">
@@ -44,7 +44,7 @@ export default function Home() {
             </p>
             <p className="text-white/80 max-w-2xl mx-auto mb-8">
               Welcome to the most legendary watering hole in the territory.
-              Serving cowboys, outlaws, and honest folk since 1885.
+              Serving cowboys, outlaws, and honest folk since 1912.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/buy-prices">
@@ -125,7 +125,7 @@ export default function Home() {
 
       {/* Noticeboard */}
       <section className="mb-16">
-        <Card className="western-border">
+        <Card className="dragon-border">
           <CardHeader>
             <CardTitle className="flex items-center text-2xl">
               <Star className="mr-3 h-6 w-6 text-gold" />

@@ -55,7 +55,7 @@ export function Navigation({ user }: NavigationProps) {
   });
 
   return (
-    <nav className="bg-card border-b border-border wood-texture">
+    <nav className="bg-card border-b border-border dragon-scale-texture">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
