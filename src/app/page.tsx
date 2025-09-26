@@ -36,13 +36,13 @@ export default function Home() {
         <div className="relative bg-gradient-to-r from-primary to-secondary p-12 rounded-lg dragon-border mb-8 dragon-scale-texture">
           <div className="absolute inset-0 bg-black/10 rounded-lg"></div>
           <div className="relative z-10">
-            <h1 className="font-serif text-5xl md:text-6xl font-bold text-white mb-4">
+            <h1 className="font-serif text-5xl md:text-6xl font-bold text-black mb-4">
               🐉 The Dragon Saloon
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 font-serif italic mb-6">
+            <p className="text-xl md:text-2xl text-black/90 font-serif italic mb-6">
               Fine drinks, fair deals, fierce spirit.
             </p>
-            <p className="text-white/80 max-w-2xl mx-auto mb-8">
+            <p className="text-black/80 max-w-2xl mx-auto mb-8">
               Welcome to the most legendary watering hole in the territory.
               Serving cowboys, outlaws, and honest folk since 1912.
             </p>
