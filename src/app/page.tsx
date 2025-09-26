@@ -109,13 +109,13 @@ export default function Home() {
         </Link>
 
         <Link href="/leaderboard">
-          <Card className="card-welsh-gold hover:shadow-lg transition-shadow cursor-pointer group dragon-fire-glow">
+          <Card className="card-welsh-green hover:shadow-lg transition-shadow cursor-pointer group">
             <CardHeader className="text-center">
-              <div className="mx-auto w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 group-hover:bg-black/80 transition-colors">
-                <Trophy className="h-6 w-6 text-dragon-gold" />
+              <div className="mx-auto w-12 h-12 bg-white rounded-full flex items-center justify-center mb-4 group-hover:bg-white/90 transition-colors">
+                <Trophy className="h-6 w-6 text-welsh-green" />
               </div>
-              <CardTitle className="text-black">Leaderboard</CardTitle>
-              <CardDescription className="text-black/80">
+              <CardTitle className="text-white">Leaderboard</CardTitle>
+              <CardDescription className="text-white/90">
                 Weekly staff performance and sales champions
               </CardDescription>
             </CardHeader>
