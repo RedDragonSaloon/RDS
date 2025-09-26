@@ -17,7 +17,7 @@ export function MainLayout({ children }: MainLayoutProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-serif font-semibold text-lg mb-4">The Dragon Saloon</h3>
+              <h3 className="font-serif font-semibold text-lg mb-4">The Red Dragon</h3>
               <p className="text-muted-foreground">
                 Serving the finest drinks and fairest deals in the territory since 1912.
               </p>
@@ -41,7 +41,7 @@ export function MainLayout({ children }: MainLayoutProps) {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 The Dragon Saloon. Built for RedM roleplay community.</p>
+            <p>&copy; 2024 The Red Dragon. Built for RedM roleplay community.</p>
           </div>
         </div>
       </footer>

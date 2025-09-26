@@ -50,7 +50,7 @@ export function Navigation() {
               </div>
               <div>
                 <h1 className="font-serif font-bold text-xl text-foreground">
-                  The Dragon Saloon
+                  The Red Dragon
                 </h1>
                 <p className="text-sm text-muted-foreground font-serif italic">
                   Fine drinks, fair deals, fierce spirit

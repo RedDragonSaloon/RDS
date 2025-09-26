@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 export default function Home() {
-  const noticeboard = `# Welcome to The Dragon Saloon
+  const noticeboard = `# Welcome to The Red Dragon
 
 ## This Week's Specials
 - **Monday**: Half-price Prairie Fire Bourbon
@@ -34,7 +34,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/10 rounded-lg"></div>
           <div className="relative z-10">
             <h1 className="font-serif text-5xl md:text-6xl font-bold text-black mb-4">
-              🐉 The Dragon Saloon
+              🐉 The Red Dragon
             </h1>
             <p className="text-xl md:text-2xl text-black/90 font-serif italic mb-6">
               Fine drinks, fair deals, fierce spirit.
@@ -51,7 +51,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/recipes">
-                <Button size="lg" variant="outline" className="bg-white/10 border-white text-white hover:bg-white/20">
+                <Button size="lg" className="bg-welsh-red hover:bg-red-700 text-white border-0">
                   Browse Recipes
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>

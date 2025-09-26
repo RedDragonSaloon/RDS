@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Dragon Saloon - Management System",
+  title: "The Red Dragon - Management System",
   description: "Saloon management system for RedM roleplay community. Track sales, manage inventory, and monitor staff performance.",
   keywords: "RedM, roleplay, saloon, management, POS, inventory",
 };
