@@ -67,13 +67,13 @@ export default function Home() {
       {/* Quick Navigation Cards */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
         <Link href="/buy-prices">
-          <Card className="hover:shadow-lg transition-shadow cursor-pointer group">
+          <Card className="card-welsh-red hover:shadow-lg transition-shadow cursor-pointer group">
             <CardHeader className="text-center">
-              <div className="mx-auto w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/90 transition-colors">
-                <DollarSign className="h-6 w-6 text-primary-foreground" />
+              <div className="mx-auto w-12 h-12 bg-white rounded-full flex items-center justify-center mb-4 group-hover:bg-white/90 transition-colors">
+                <DollarSign className="h-6 w-6 text-welsh-red" />
               </div>
-              <CardTitle>Buy Prices</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-white">Buy Prices</CardTitle>
+              <CardDescription className="text-white/90">
                 Current purchasing rates for all spirits, mixers, and supplies
               </CardDescription>
             </CardHeader>
@@ -81,13 +81,13 @@ export default function Home() {
         </Link>
 
         <Link href="/sell-prices">
-          <Card className="hover:shadow-lg transition-shadow cursor-pointer group">
+          <Card className="card-welsh-green hover:shadow-lg transition-shadow cursor-pointer group">
             <CardHeader className="text-center">
-              <div className="mx-auto w-12 h-12 bg-secondary rounded-full flex items-center justify-center mb-4 group-hover:bg-secondary/90 transition-colors">
-                <Package className="h-6 w-6 text-secondary-foreground" />
+              <div className="mx-auto w-12 h-12 bg-white rounded-full flex items-center justify-center mb-4 group-hover:bg-white/90 transition-colors">
+                <Package className="h-6 w-6 text-welsh-green" />
               </div>
-              <CardTitle>Sell Prices & Packages</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-white">Sell Prices & Packages</CardTitle>
+              <CardDescription className="text-white/90">
                 Retail prices and special package deals for customers
               </CardDescription>
             </CardHeader>
@@ -95,13 +95,13 @@ export default function Home() {
         </Link>
 
         <Link href="/recipes">
-          <Card className="hover:shadow-lg transition-shadow cursor-pointer group">
+          <Card className="card-welsh-red hover:shadow-lg transition-shadow cursor-pointer group">
             <CardHeader className="text-center">
-              <div className="mx-auto w-12 h-12 bg-accent rounded-full flex items-center justify-center mb-4 group-hover:bg-accent/90 transition-colors">
-                <ChefHat className="h-6 w-6 text-accent-foreground" />
+              <div className="mx-auto w-12 h-12 bg-white rounded-full flex items-center justify-center mb-4 group-hover:bg-white/90 transition-colors">
+                <ChefHat className="h-6 w-6 text-welsh-red" />
               </div>
-              <CardTitle>Recipes</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-white">Recipes</CardTitle>
+              <CardDescription className="text-white/90">
                 Cocktail recipes, food preparations, and cooking instructions
               </CardDescription>
             </CardHeader>
@@ -109,13 +109,13 @@ export default function Home() {
         </Link>
 
         <Link href="/leaderboard">
-          <Card className="hover:shadow-lg transition-shadow cursor-pointer group dragon-fire-glow">
+          <Card className="card-welsh-gold hover:shadow-lg transition-shadow cursor-pointer group dragon-fire-glow">
             <CardHeader className="text-center">
-              <div className="mx-auto w-12 h-12 bg-accent rounded-full flex items-center justify-center mb-4 group-hover:opacity-90 transition-opacity">
-                <Trophy className="h-6 w-6 text-accent-foreground" />
+              <div className="mx-auto w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 group-hover:bg-black/80 transition-colors">
+                <Trophy className="h-6 w-6 text-dragon-gold" />
               </div>
-              <CardTitle>Leaderboard</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-black">Leaderboard</CardTitle>
+              <CardDescription className="text-black/80">
                 Weekly staff performance and sales champions
               </CardDescription>
             </CardHeader>

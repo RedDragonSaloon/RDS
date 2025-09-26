@@ -76,8 +76,8 @@ export function Navigation({ user }: NavigationProps) {
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+          <div className="hidden lg:block">
+            <div className="ml-6 flex items-baseline space-x-2">
               {filteredNavigation.map((item) => {
                 const Icon = item.icon;
                 const isActive = pathname === item.href;
@@ -87,14 +87,14 @@ export function Navigation({ user }: NavigationProps) {
                     key={item.name}
                     href={item.href}
                     className={cn(
-                      "px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-2 transition-colors",
+                      "px-2 py-2 rounded-md text-sm font-medium flex items-center space-x-1 transition-colors whitespace-nowrap",
                       isActive
                         ? "bg-primary text-primary-foreground"
                         : "text-foreground hover:bg-muted hover:text-foreground"
                     )}
                   >
                     <Icon className="h-4 w-4" />
-                    <span>{item.name}</span>
+                    <span className="hidden xl:inline">{item.name}</span>
                   </Link>
                 );
               })}
@@ -102,7 +102,7 @@ export function Navigation({ user }: NavigationProps) {
           </div>
 
           {/* Right side controls */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-2">
             <Button
               variant="ghost"
               size="sm"
@@ -113,29 +113,29 @@ export function Navigation({ user }: NavigationProps) {
             </Button>
 
             {user ? (
-              <div className="flex items-center space-x-3">
-                <span className="text-sm font-medium">
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-medium hidden xl:inline">
                   Welcome, {user.name}
                 </span>
                 <Link href="/profile">
                   <Button variant="outline" size="sm">
-                    <User className="h-4 w-4 mr-1" />
-                    Profile
+                    <User className="h-4 w-4" />
+                    <span className="hidden xl:inline ml-1">Profile</span>
                   </Button>
                 </Link>
               </div>
             ) : (
               <Link href="/login">
                 <Button size="sm">
-                  <User className="h-4 w-4 mr-1" />
-                  Login
+                  <User className="h-4 w-4" />
+                  <span className="hidden xl:inline ml-1">Login</span>
                 </Button>
               </Link>
             )}
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-2">
+          <div className="lg:hidden flex items-center space-x-2">
             <Button
               variant="ghost"
               size="sm"
@@ -161,7 +161,7 @@ export function Navigation({ user }: NavigationProps) {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-card border-t border-border">
             {filteredNavigation.map((item) => {
               const Icon = item.icon;
