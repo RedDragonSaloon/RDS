@@ -15,19 +15,20 @@ import {
 const mockUser = null; // Set to null to show logged-out state
 
 export default function Home() {
-  const noticeboard = `# Welcome to The Dragon Saloon
+  const noticeboard = `# Croeso i Y Ddraig Goch Saloon 🐉
 
-## This Week's Specials
-- **Monday**: Half-price Prairie Fire Bourbon
-- **Wednesday**: Poker Night Pack - Buy 2 Get 1 Free
-- **Friday**: Live music with Belle "Songbird" Davis
-- **Saturday**: Dragon's Fire Challenge - Finish the drink, get your name on the wall!
+## Arbennigion yr Wythnos - This Week's Specials
+- **Dydd Llun (Monday)**: Half-price Welsh Dragon Fire Whiskey
+- **Dydd Mercher (Wednesday)**: Poker Cymraeg Night - Buy 2 Get 1 Free
+- **Dydd Gwener (Friday)**: Live Celtic music with Cerys "Y Deryn" Evans
+- **Dydd Sadwrn (Saturday)**: Ddraig's Fire Challenge - Finish the drink, get your name on the wall!
 
-## Upcoming Events
-- **Next Sunday**: Monthly Arm Wrestling Championship
-- **Oct 31**: Halloween Costume Contest with prizes
+## Digwyddiadau - Upcoming Events
+- **Dydd Sul Nesaf**: Monthly Welsh Arm Wrestling Championship
+- **Hydref 31**: Calan Gaeaf (Halloween) Costume Contest with prizes
+- **Dewi Sant Day (March 1)**: Special Welsh celebration with traditional food
 
-*Fine drinks, fair deals, fierce spirit.*`;
+*Cymru am byth - Fine drinks, fair deals, Welsh spirit.*`;
 
   return (
     <MainLayout user={mockUser}>
@@ -37,14 +38,14 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/10 rounded-lg"></div>
           <div className="relative z-10">
             <h1 className="font-serif text-5xl md:text-6xl font-bold text-white mb-4">
-              🐉 The Dragon Saloon
+              🐉 Y Ddraig Goch Saloon 🏴󠁧󠁢󠁷󠁬󠁳󠁿
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-serif italic mb-6">
-              Fine drinks, fair deals, fierce spirit.
+              Cymru am byth - Wales forever
             </p>
             <p className="text-white/80 max-w-2xl mx-auto mb-8">
-              Welcome to the most legendary watering hole in the territory.
-              Serving cowboys, outlaws, and honest folk since 1912.
+              Croeso! Welcome to the most legendary Welsh watering hole in the territory.
+              Serving cowboys, outlaws, and honest folk with Welsh pride since 1912.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/buy-prices">
@@ -109,14 +110,14 @@ export default function Home() {
         </Link>
 
         <Link href="/leaderboard">
-          <Card className="hover:shadow-lg transition-shadow cursor-pointer group">
+          <Card className="hover:shadow-lg transition-shadow cursor-pointer group dragon-fire-glow">
             <CardHeader className="text-center">
-              <div className="mx-auto w-12 h-12 bg-gold rounded-full flex items-center justify-center mb-4 group-hover:opacity-90 transition-opacity">
-                <Trophy className="h-6 w-6 text-charcoal" />
+              <div className="mx-auto w-12 h-12 bg-accent rounded-full flex items-center justify-center mb-4 group-hover:opacity-90 transition-opacity">
+                <Trophy className="h-6 w-6 text-accent-foreground" />
               </div>
-              <CardTitle>Leaderboard</CardTitle>
+              <CardTitle>🏆 Pencampwyr - Champions</CardTitle>
               <CardDescription>
-                Weekly staff performance and sales champions
+                Weekly staff performance and Welsh dragon sales champions
               </CardDescription>
             </CardHeader>
           </Card>
@@ -128,11 +129,11 @@ export default function Home() {
         <Card className="dragon-border">
           <CardHeader>
             <CardTitle className="flex items-center text-2xl">
-              <Star className="mr-3 h-6 w-6 text-gold" />
-              Saloon Noticeboard
+              <Star className="mr-3 h-6 w-6 text-accent" />
+              🏴󠁧󠁢󠁷󠁬󠁳󠁿 Bwrdd Hysbysiadau - Noticeboard
             </CardTitle>
             <CardDescription>
-              Latest news, specials, and upcoming events
+              Newyddion diweddaraf - Latest news, specials, and Welsh events
             </CardDescription>
           </CardHeader>
           <CardContent className="prose prose-sm max-w-none">
