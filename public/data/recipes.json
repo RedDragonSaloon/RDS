@@ -1,284 +1,424 @@
 [
   {
-    "id": "cmfzg0whl001aux9gnukis3hs",
-    "name": "Trail Mix Special",
-    "description": "Perfect snack for the road",
+    "id": "recipe-001",
+    "name": "Welsh Cawl",
+    "description": "Traditional Welsh lamb stew with leeks and root vegetables",
     "category": "Food",
-    "difficulty": 1,
-    "stepsMarkdown": "\n1. Mix jerky pieces with nuts\n2. Add dried fruits if available\n3. Serve in small bowl\n        ",
+    "difficulty": 3,
+    "stepsMarkdown": "1. Brown lamb pieces in large pot\n2. Add chopped onions, leeks, and carrots\n3. Cover with water, season with salt and pepper\n4. Simmer for 2-3 hours until tender\n5. Add potatoes in last 30 minutes\n6. Serve with crusty bread",
     "imageUrl": null,
     "isActive": true,
-    "createdAt": "2025-09-25T13:22:57.273Z",
-    "updatedAt": "2025-09-25T13:22:57.273Z",
-    "ingredients": [],
-    "calculatedCost": 0,
-    "suggestedSellPrice": 0,
-    "suggestedMargin": 60
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-001",
+        "recipeId": "recipe-001",
+        "itemId": "item-003",
+        "quantity": 2,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-003",
+          "name": "Lamb Leg",
+          "category": "Meat",
+          "unit": "lb",
+          "buyPrice": 0.18
+        }
+      },
+      {
+        "id": "ing-002",
+        "recipeId": "recipe-001",
+        "itemId": "item-009",
+        "quantity": 1,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-009",
+          "name": "Leeks",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.08
+        }
+      },
+      {
+        "id": "ing-003",
+        "recipeId": "recipe-001",
+        "itemId": "item-006",
+        "quantity": 2,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-006",
+          "name": "Potatoes",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.03
+        }
+      }
+    ],
+    "calculatedCost": 0.48,
+    "suggestedSellPrice": 2.50,
+    "suggestedMargin": 80
   },
   {
-    "id": "cmfzg0whl001eux9gxuocz30d",
-    "name": "Prairie Sunrise",
-    "description": "A refreshing non-alcoholic drink",
+    "id": "recipe-002",
+    "name": "Welsh Rarebit",
+    "description": "Rich cheese sauce on toast, a Welsh tavern favorite",
+    "category": "Food",
+    "difficulty": 2,
+    "stepsMarkdown": "1. Make cheese sauce with flour and butter\n2. Add strong cheese and seasonings\n3. Toast bread slices\n4. Pour sauce over toast\n5. Brown under flame briefly\n6. Serve hot",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-004",
+        "recipeId": "recipe-002",
+        "itemId": "item-017",
+        "quantity": 0.25,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-017",
+          "name": "Wheat Flour",
+          "category": "Dry Goods",
+          "unit": "lb",
+          "buyPrice": 0.06
+        }
+      }
+    ],
+    "calculatedCost": 0.25,
+    "suggestedSellPrice": 2.00,
+    "suggestedMargin": 88
+  },
+  {
+    "id": "recipe-003",
+    "name": "Leek and Potato Soup",
+    "description": "Hearty Welsh comfort food",
+    "category": "Food",
+    "difficulty": 2,
+    "stepsMarkdown": "1. Sauté sliced leeks until soft\n2. Add diced potatoes and stock\n3. Season with salt and pepper\n4. Simmer until potatoes are tender\n5. Mash slightly for texture\n6. Serve with bread",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-005",
+        "recipeId": "recipe-003",
+        "itemId": "item-009",
+        "quantity": 1,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-009",
+          "name": "Leeks",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.08
+        }
+      },
+      {
+        "id": "ing-006",
+        "recipeId": "recipe-003",
+        "itemId": "item-006",
+        "quantity": 1.5,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-006",
+          "name": "Potatoes",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.03
+        }
+      }
+    ],
+    "calculatedCost": 0.13,
+    "suggestedSellPrice": 2.25,
+    "suggestedMargin": 94
+  },
+  {
+    "id": "recipe-004",
+    "name": "Salt Cod Cakes",
+    "description": "Pan-fried cod cakes with potato",
+    "category": "Food",
+    "difficulty": 2,
+    "stepsMarkdown": "1. Soak salt cod overnight\n2. Flake cod and mix with mashed potatoes\n3. Form into patties\n4. Dredge in flour\n5. Fry until golden brown\n6. Serve hot with vegetables",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-007",
+        "recipeId": "recipe-004",
+        "itemId": "item-004",
+        "quantity": 0.5,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-004",
+          "name": "Salt Cod",
+          "category": "Fish",
+          "unit": "lb",
+          "buyPrice": 0.25
+        }
+      },
+      {
+        "id": "ing-008",
+        "recipeId": "recipe-004",
+        "itemId": "item-006",
+        "quantity": 1,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-006",
+          "name": "Potatoes",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.03
+        }
+      }
+    ],
+    "calculatedCost": 0.16,
+    "suggestedSellPrice": 2.75,
+    "suggestedMargin": 94
+  },
+  {
+    "id": "recipe-005",
+    "name": "Welsh Faggots",
+    "description": "Seasoned pork meatballs with herbs",
+    "category": "Food",
+    "difficulty": 3,
+    "stepsMarkdown": "1. Mix ground pork with breadcrumbs\n2. Add chopped onions and herbs\n3. Season with salt and pepper\n4. Form into balls\n5. Bake in oven until cooked through\n6. Serve with gravy",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-009",
+        "recipeId": "recipe-005",
+        "itemId": "item-002",
+        "quantity": 1,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-002",
+          "name": "Pork Shoulder",
+          "category": "Meat",
+          "unit": "lb",
+          "buyPrice": 0.12
+        }
+      },
+      {
+        "id": "ing-010",
+        "recipeId": "recipe-005",
+        "itemId": "item-007",
+        "quantity": 0.5,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-007",
+          "name": "Onions",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.04
+        }
+      }
+    ],
+    "calculatedCost": 0.14,
+    "suggestedSellPrice": 2.50,
+    "suggestedMargin": 94
+  },
+  {
+    "id": "recipe-006",
+    "name": "Rabbit Stew",
+    "description": "Wild rabbit with vegetables in rich gravy",
+    "category": "Food",
+    "difficulty": 3,
+    "stepsMarkdown": "1. Joint rabbit into pieces\n2. Brown rabbit in large pot\n3. Add root vegetables\n4. Cover with stock, add bay leaves\n5. Simmer slowly for 1.5 hours\n6. Thicken gravy if desired",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-011",
+        "recipeId": "recipe-006",
+        "itemId": "item-005",
+        "quantity": 1,
+        "unitOverride": "each",
+        "item": {
+          "id": "item-005",
+          "name": "Wild Rabbit",
+          "category": "Game",
+          "unit": "each",
+          "buyPrice": 0.35
+        }
+      },
+      {
+        "id": "ing-012",
+        "recipeId": "recipe-006",
+        "itemId": "item-008",
+        "quantity": 0.5,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-008",
+          "name": "Carrots",
+          "category": "Vegetables",
+          "unit": "lb",
+          "buyPrice": 0.05
+        }
+      },
+      {
+        "id": "ing-013",
+        "recipeId": "recipe-006",
+        "itemId": "item-020",
+        "quantity": 0.1,
+        "unitOverride": "oz",
+        "item": {
+          "id": "item-020",
+          "name": "Bay Leaves",
+          "category": "Spices",
+          "unit": "oz",
+          "buyPrice": 0.30
+        }
+      }
+    ],
+    "calculatedCost": 0.43,
+    "suggestedSellPrice": 3.00,
+    "suggestedMargin": 86
+  },
+  {
+    "id": "recipe-007",
+    "name": "Welsh Whiskey Toddy",
+    "description": "Warming drink with whiskey, honey, and spices",
+    "category": "Alcoholic",
+    "difficulty": 1,
+    "stepsMarkdown": "1. Heat water in kettle\n2. Add honey to mug\n3. Pour in whiskey measure\n4. Top with hot water\n5. Add pinch of spices\n6. Stir and serve hot",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-014",
+        "recipeId": "recipe-007",
+        "itemId": "item-015",
+        "quantity": 0.5,
+        "unitOverride": "gallon",
+        "item": {
+          "id": "item-015",
+          "name": "Spring Water",
+          "category": "Water",
+          "unit": "gallon",
+          "buyPrice": 0.02
+        }
+      }
+    ],
+    "calculatedCost": 0.15,
+    "suggestedSellPrice": 2.50,
+    "suggestedMargin": 94
+  },
+  {
+    "id": "recipe-008",
+    "name": "Beef and Cabbage Rolls",
+    "description": "Seasoned beef wrapped in cabbage leaves",
+    "category": "Food",
+    "difficulty": 3,
+    "stepsMarkdown": "1. Blanch cabbage leaves in boiling water\n2. Mix ground beef with onions and seasonings\n3. Place filling in cabbage leaves\n4. Roll and secure with toothpicks\n5. Bake in covered dish\n6. Serve with pan juices",
+    "imageUrl": null,
+    "isActive": true,
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "ingredients": [
+      {
+        "id": "ing-015",
+        "recipeId": "recipe-008",
+        "itemId": "item-001",
+        "quantity": 1,
+        "unitOverride": "lb",
+        "item": {
+          "id": "item-001",
+          "name": "Beef Side (Quarter)",
+          "category": "Meat",
+          "unit": "lb",
+          "buyPrice": 0.15
+        }
+      },
+      {
+        "id": "ing-016",
+        "recipeId": "recipe-008",
+        "itemId": "item-010",
+        "quantity": 1,
+        "unitOverride": "head",
+        "item": {
+          "id": "item-010",
+          "name": "Cabbage",
+          "category": "Vegetables",
+          "unit": "head",
+          "buyPrice": 0.06
+        }
+      }
+    ],
+    "calculatedCost": 0.21,
+    "suggestedSellPrice": 2.75,
+    "suggestedMargin": 92
+  },
+  {
+    "id": "recipe-009",
+    "name": "Spiced Apple Cider",
+    "description": "Warm non-alcoholic drink with spices",
     "category": "Non-Alcoholic",
     "difficulty": 1,
-    "stepsMarkdown": "\n1. Fill glass with ice\n2. Add sarsaparilla\n3. Top with ginger beer\n4. Stir gently\n5. Garnish with orange slice\n        ",
+    "stepsMarkdown": "1. Heat apple cider in large pot\n2. Add whole spices (cinnamon, cloves)\n3. Simmer gently for 20 minutes\n4. Strain out spices\n5. Serve hot in mugs\n6. Garnish with apple slice",
     "imageUrl": null,
     "isActive": true,
-    "createdAt": "2025-09-25T13:22:57.273Z",
-    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
     "ingredients": [
       {
-        "id": "cmfzg0wjs001uux9g5k58kkik",
-        "recipeId": "cmfzg0whl001eux9gxuocz30d",
-        "itemId": "cmfzg0w7z000mux9g49oa9q4i",
-        "quantity": 0.5,
-        "unitOverride": "bottle",
+        "id": "ing-017",
+        "recipeId": "recipe-009",
+        "itemId": "item-019",
+        "quantity": 0.1,
+        "unitOverride": "oz",
         "item": {
-          "id": "cmfzg0w7z000mux9g49oa9q4i",
-          "name": "Ginger Beer",
-          "category": "Mixers",
-          "unit": "bottle",
-          "buyPrice": 2.5,
-          "supplier": "General Store",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.926Z"
-        }
-      },
-      {
-        "id": "cmfzg0wjr001qux9gj7dnftjn",
-        "recipeId": "cmfzg0whl001eux9gxuocz30d",
-        "itemId": "cmfzg0w7w000jux9gb32iaqsa",
-        "quantity": 0.5,
-        "unitOverride": "bottle",
-        "item": {
-          "id": "cmfzg0w7w000jux9gb32iaqsa",
-          "name": "Sarsaparilla",
-          "category": "Non-Alcoholic",
-          "unit": "bottle",
-          "buyPrice": 2,
-          "supplier": "General Store",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.925Z"
+          "id": "item-019",
+          "name": "Black Pepper",
+          "category": "Spices",
+          "unit": "oz",
+          "buyPrice": 0.20
         }
       }
     ],
-    "calculatedCost": 2.25,
-    "suggestedSellPrice": 5.625,
-    "suggestedMargin": 60
+    "calculatedCost": 0.10,
+    "suggestedSellPrice": 2.00,
+    "suggestedMargin": 95
   },
   {
-    "id": "cmfzg0whl001cux9gq7s6oabn",
-    "name": "Dragon's Fire Cocktail",
-    "description": "Our signature cocktail with a spicy kick",
-    "category": "Cocktails",
-    "difficulty": 3,
-    "stepsMarkdown": "\n1. Add 2 oz Dragon's Breath Whiskey to shaker\n2. Add 0.5 oz simple syrup\n3. Add 2 dashes of hot sauce\n4. Shake with ice\n5. Strain into glass\n6. Garnish with dried chili\n        ",
-    "imageUrl": "/images/dragons-fire.jpg",
-    "isActive": true,
-    "createdAt": "2025-09-25T13:22:57.273Z",
-    "updatedAt": "2025-09-25T13:22:57.273Z",
-    "ingredients": [
-      {
-        "id": "cmfzg0wjq001gux9gi4kh2uom",
-        "recipeId": "cmfzg0whl001cux9gq7s6oabn",
-        "itemId": "cmfzg0w7w000kux9gk5tz9ktt",
-        "quantity": 2,
-        "unitOverride": "oz",
-        "item": {
-          "id": "cmfzg0w7w000kux9gk5tz9ktt",
-          "name": "Dragon's Breath Whiskey",
-          "category": "Spirits",
-          "unit": "bottle",
-          "buyPrice": 25,
-          "supplier": "Western Distillery Co.",
-          "notes": "Our signature whiskey with a fiery finish",
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.925Z"
-        }
-      },
-      {
-        "id": "cmfzg0wjq001iux9g7udgjds9",
-        "recipeId": "cmfzg0whl001cux9gq7s6oabn",
-        "itemId": "cmfzg0w96000nux9ggiqyydnx",
-        "quantity": 0.5,
-        "unitOverride": "oz",
-        "item": {
-          "id": "cmfzg0w96000nux9ggiqyydnx",
-          "name": "Simple Syrup",
-          "category": "Mixers",
-          "unit": "bottle",
-          "buyPrice": 5,
-          "supplier": "Kitchen Supply Co.",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.970Z"
-        }
-      }
-    ],
-    "calculatedCost": 52.5,
-    "suggestedSellPrice": 131.25,
-    "suggestedMargin": 60
-  },
-  {
-    "id": "cmfzg0whl001dux9gwufs6n4l",
-    "name": "Cowboy's Plate",
-    "description": "Hearty meal for hungry travelers",
+    "id": "recipe-010",
+    "name": "Welsh Tea Cakes",
+    "description": "Sweet griddle cakes with currants",
     "category": "Food",
     "difficulty": 2,
-    "stepsMarkdown": "\n1. Slice beef jerky into strips\n2. Warm hardtack biscuits\n3. Heat salted pork in cast iron pan\n4. Serve beans on the side\n5. Arrange on wooden plate\n        ",
+    "stepsMarkdown": "1. Mix flour with butter and sugar\n2. Add currants and milk to form dough\n3. Roll out to 1/2 inch thickness\n4. Cut into rounds\n5. Cook on hot griddle until golden\n6. Serve warm with butter",
     "imageUrl": null,
     "isActive": true,
-    "createdAt": "2025-09-25T13:22:57.273Z",
-    "updatedAt": "2025-09-25T13:22:57.273Z",
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
     "ingredients": [
       {
-        "id": "cmfzg0wk0001wux9gitct64vg",
-        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
-        "itemId": "cmfzg0w9m000pux9gwgdhssxf",
-        "quantity": 2,
-        "unitOverride": "piece",
-        "item": {
-          "id": "cmfzg0w9m000pux9gwgdhssxf",
-          "name": "Hardtack Biscuits",
-          "category": "Food",
-          "unit": "dozen",
-          "buyPrice": 3,
-          "supplier": "Baker's Dozen",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.986Z"
-        }
-      },
-      {
-        "id": "cmfzg0wk8001yux9gy71jxkca",
-        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
-        "itemId": "cmfzg0w9q000qux9g0l7c93qj",
-        "quantity": 0.5,
-        "unitOverride": "pound",
-        "item": {
-          "id": "cmfzg0w9q000qux9g0l7c93qj",
-          "name": "Salted Pork",
-          "category": "Food",
-          "unit": "pound",
-          "buyPrice": 6,
-          "supplier": "Frontier Meat Co.",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.990Z"
-        }
-      },
-      {
-        "id": "cmfzg0wke0020ux9gl4ez5d22",
-        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
-        "itemId": "cmfzg0w9u000rux9gf3oep3l6",
-        "quantity": 0.5,
-        "unitOverride": "pound",
-        "item": {
-          "id": "cmfzg0w9u000rux9gf3oep3l6",
-          "name": "Prairie Beans",
-          "category": "Food",
-          "unit": "pound",
-          "buyPrice": 2.5,
-          "supplier": "General Store",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.995Z"
-        }
-      },
-      {
-        "id": "cmfzg0wjr001rux9glk5nxyi9",
-        "recipeId": "cmfzg0whl001dux9gwufs6n4l",
-        "itemId": "cmfzg0w9b000oux9grwu8edl6",
-        "quantity": 0.25,
-        "unitOverride": "pound",
-        "item": {
-          "id": "cmfzg0w9b000oux9grwu8edl6",
-          "name": "Beef Jerky",
-          "category": "Food",
-          "unit": "pound",
-          "buyPrice": 8,
-          "supplier": "Frontier Meat Co.",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.976Z"
-        }
-      }
-    ],
-    "calculatedCost": 12.25,
-    "suggestedSellPrice": 30.625,
-    "suggestedMargin": 60
-  },
-  {
-    "id": "cmfzg0whl001bux9gmg4crqvr",
-    "name": "Tombstone Mule",
-    "description": "A Western twist on the classic Moscow Mule",
-    "category": "Cocktails",
-    "difficulty": 2,
-    "stepsMarkdown": "\n1. Add 2 oz Tombstone Rye to copper mug\n2. Add 0.5 oz simple syrup\n3. Add juice of half a lime\n4. Fill with ginger beer\n5. Stir gently\n6. Garnish with lime wedge\n        ",
-    "imageUrl": null,
-    "isActive": true,
-    "createdAt": "2025-09-25T13:22:57.273Z",
-    "updatedAt": "2025-09-25T13:22:57.273Z",
-    "ingredients": [
-      {
-        "id": "cmfzg0wjq001kux9gc49ejfe3",
-        "recipeId": "cmfzg0whl001bux9gmg4crqvr",
-        "itemId": "cmfzg0w7w000iux9g3rfnvmr9",
-        "quantity": 2,
-        "unitOverride": "oz",
-        "item": {
-          "id": "cmfzg0w7w000iux9g3rfnvmr9",
-          "name": "Tombstone Rye",
-          "category": "Spirits",
-          "unit": "bottle",
-          "buyPrice": 30,
-          "supplier": "Arizona Spirits",
-          "notes": "Premium rye whiskey",
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.925Z"
-        }
-      },
-      {
-        "id": "cmfzg0wjr001sux9gh6dl0g05",
-        "recipeId": "cmfzg0whl001bux9gmg4crqvr",
-        "itemId": "cmfzg0w96000nux9ggiqyydnx",
-        "quantity": 0.5,
-        "unitOverride": "oz",
-        "item": {
-          "id": "cmfzg0w96000nux9ggiqyydnx",
-          "name": "Simple Syrup",
-          "category": "Mixers",
-          "unit": "bottle",
-          "buyPrice": 5,
-          "supplier": "Kitchen Supply Co.",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.970Z"
-        }
-      },
-      {
-        "id": "cmfzg0wjq001mux9g4e7f53pp",
-        "recipeId": "cmfzg0whl001bux9gmg4crqvr",
-        "itemId": "cmfzg0w7z000mux9g49oa9q4i",
+        "id": "ing-018",
+        "recipeId": "recipe-010",
+        "itemId": "item-017",
         "quantity": 1,
-        "unitOverride": "bottle",
+        "unitOverride": "lb",
         "item": {
-          "id": "cmfzg0w7z000mux9g49oa9q4i",
-          "name": "Ginger Beer",
-          "category": "Mixers",
-          "unit": "bottle",
-          "buyPrice": 2.5,
-          "supplier": "General Store",
-          "notes": null,
-          "isActive": true,
-          "lastUpdated": "2025-09-25T13:22:56.926Z"
+          "id": "item-017",
+          "name": "Wheat Flour",
+          "category": "Dry Goods",
+          "unit": "lb",
+          "buyPrice": 0.06
         }
       }
     ],
-    "calculatedCost": 65,
-    "suggestedSellPrice": 162.5,
-    "suggestedMargin": 60
+    "calculatedCost": 0.15,
+    "suggestedSellPrice": 2.25,
+    "suggestedMargin": 93
   }
 ]

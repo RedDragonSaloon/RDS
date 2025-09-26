@@ -1,89 +1,78 @@
 [
   {
-    "id": "cmfzg0wnm0021ux9gqqjy9iyn",
-    "name": "Rancher's Supper",
-    "description": "Hearty meal with a drink",
+    "id": "package-001",
+    "name": "Five Food Bundle",
+    "description": "Five hearty Welsh meals at bundle pricing",
     "isActive": true,
-    "bundleSellPrice": 25,
-    "createdAt": "2025-09-25T13:22:57.491Z",
-    "updatedAt": "2025-09-25T13:22:57.491Z",
-    "items": [
-      {
-        "id": "cmfzg0wpq002fux9g7xubq2rt",
-        "packageId": "cmfzg0wnm0021ux9gqqjy9iyn",
-        "sourceType": "ITEM",
-        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
-        "quantity": 2
-      },
-      {
-        "id": "cmfzg0wpo002dux9gj00j3yh7",
-        "packageId": "cmfzg0wnm0021ux9gqqjy9iyn",
-        "sourceType": "RECIPE",
-        "sourceId": "cmfzg0whl001dux9gwufs6n4l",
-        "quantity": 1
-      }
+    "bundleSellPrice": 10.00,
+    "itemCount": 5,
+    "pricePerItem": 2.00,
+    "category": "Food",
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "includedRecipes": [
+      "recipe-001",
+      "recipe-002",
+      "recipe-003",
+      "recipe-004",
+      "recipe-005"
     ]
   },
   {
-    "id": "cmfzg0wnn0024ux9gr3k6d7nu",
-    "name": "Traveler's Kit",
-    "description": "Supplies for the road",
+    "id": "package-002",
+    "name": "Five Drink Bundle",
+    "description": "Five refreshing beverages at bundle pricing",
     "isActive": true,
-    "bundleSellPrice": 15,
-    "createdAt": "2025-09-25T13:22:57.491Z",
-    "updatedAt": "2025-09-25T13:22:57.491Z",
-    "items": []
-  },
-  {
-    "id": "cmfzg0wnn0023ux9g4yrild0f",
-    "name": "Saturday Night Special",
-    "description": "Premium drinks for celebration",
-    "isActive": true,
-    "bundleSellPrice": 45,
-    "createdAt": "2025-09-25T13:22:57.491Z",
-    "updatedAt": "2025-09-25T13:22:57.491Z",
-    "items": []
-  },
-  {
-    "id": "cmfzg0wnn0025ux9gtodvowz9",
-    "name": "Poker Night Pack",
-    "description": "Everything you need for a good game",
-    "isActive": true,
-    "bundleSellPrice": 35,
-    "createdAt": "2025-09-25T13:22:57.491Z",
-    "updatedAt": "2025-09-25T13:22:57.491Z",
-    "items": [
-      {
-        "id": "cmfzg0wpo002bux9gstau199w",
-        "packageId": "cmfzg0wnn0025ux9gtodvowz9",
-        "sourceType": "ITEM",
-        "sourceId": "cmfzg0w7w000hux9gpd6vastg",
-        "quantity": 6
-      },
-      {
-        "id": "cmfzg0wpo002aux9g5pgx9245",
-        "packageId": "cmfzg0wnn0025ux9gtodvowz9",
-        "sourceType": "ITEM",
-        "sourceId": "cmfzg0w9b000oux9grwu8edl6",
-        "quantity": 1
-      },
-      {
-        "id": "cmfzg0wpo0028ux9gysxe8i10",
-        "packageId": "cmfzg0wnn0025ux9gtodvowz9",
-        "sourceType": "ITEM",
-        "sourceId": "cmfzg0w7w000kux9gk5tz9ktt",
-        "quantity": 4
-      }
+    "bundleSellPrice": 10.00,
+    "itemCount": 5,
+    "pricePerItem": 2.00,
+    "category": "Drinks",
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "includedRecipes": [
+      "recipe-007",
+      "recipe-009"
+    ],
+    "additionalDrinks": [
+      "Welsh Ale",
+      "Mountain Cider",
+      "Herbal Tea"
     ]
   },
   {
-    "id": "cmfzg0wnm0022ux9gvarti6g3",
-    "name": "Saloon Sampler",
-    "description": "Try a bit of everything",
+    "id": "package-003",
+    "name": "Grand Feast Bundle",
+    "description": "Ten meals and ten drinks - complete dining experience",
     "isActive": true,
-    "bundleSellPrice": 20,
-    "createdAt": "2025-09-25T13:22:57.491Z",
-    "updatedAt": "2025-09-25T13:22:57.491Z",
-    "items": []
+    "bundleSellPrice": 40.00,
+    "itemCount": 20,
+    "pricePerItem": 2.00,
+    "category": "Complete Package",
+    "createdAt": "2024-09-26T10:00:00Z",
+    "updatedAt": "2024-09-26T10:00:00Z",
+    "includedRecipes": [
+      "recipe-001",
+      "recipe-002",
+      "recipe-003",
+      "recipe-004",
+      "recipe-005",
+      "recipe-006",
+      "recipe-007",
+      "recipe-008",
+      "recipe-009",
+      "recipe-010"
+    ],
+    "additionalDrinks": [
+      "Welsh Ale",
+      "Mountain Cider",
+      "Herbal Tea",
+      "Spring Water",
+      "Barley Beer",
+      "Honey Mead",
+      "Apple Brandy",
+      "Ginger Beer",
+      "Welsh Whiskey",
+      "Hot Chocolate"
+    ]
   }
 ]
