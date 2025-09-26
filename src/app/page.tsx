@@ -6,7 +6,7 @@ import {
   DollarSign,
   Package,
   ChefHat,
-  Trophy,
+  ShoppingCart,
   ArrowRight,
   Star
 } from "lucide-react";
