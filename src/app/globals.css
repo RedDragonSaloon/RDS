@@ -2,30 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Authentic Welsh Flag Colors */
-  --welsh-red: #DD0000;
+  /* Intensified Welsh Flag Colors */
+  --welsh-red: #C8102E;
   --welsh-green: #00853E;
   --welsh-white: #FFFFFF;
   --dragon-gold: #FFD700;
-  --dark-slate: #1B2951;
-  --cream: #FEF9E7;
+  --flag-red-light: #E6334A;
+  --flag-green-light: #00A651;
+  --flag-red-dark: #A00D26;
+  --flag-green-dark: #006B32;
 
-  /* Light theme */
-  --background: var(--cream);
-  --foreground: var(--dark-slate);
+  /* Light theme - Intensified Welsh Flag Colors */
+  --background: linear-gradient(135deg, var(--welsh-white) 0%, #F8FFF8 100%);
+  --foreground: #1A1A1A;
   --card: var(--welsh-white);
-  --card-foreground: var(--dark-slate);
+  --card-foreground: #1A1A1A;
   --primary: var(--welsh-red);
   --primary-foreground: var(--welsh-white);
   --secondary: var(--welsh-green);
   --secondary-foreground: var(--welsh-white);
   --accent: var(--dragon-gold);
-  --accent-foreground: var(--dark-slate);
-  --muted: #F0F8F0;
+  --accent-foreground: var(--welsh-red);
+  --muted: rgba(0, 133, 62, 0.08);
   --muted-foreground: var(--welsh-green);
-  --border: rgba(0, 133, 62, 0.2);
-  --input: var(--border);
-  --ring: var(--dragon-gold);
+  --border: rgba(200, 16, 46, 0.15);
+  --input: rgba(0, 133, 62, 0.1);
+  --ring: var(--welsh-red);
 }
 
 @theme inline {
@@ -45,31 +47,36 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  /* Custom Welsh Dragon colors */
+  /* Custom Welsh Flag colors */
   --color-welsh-red: var(--welsh-red);
   --color-welsh-green: var(--welsh-green);
   --color-welsh-white: var(--welsh-white);
   --color-dragon-gold: var(--dragon-gold);
-  --color-dark-slate: var(--dark-slate);
-  --color-cream: var(--cream);
+  --color-flag-red-light: var(--flag-red-light);
+  --color-flag-green-light: var(--flag-green-light);
+  --color-flag-red-dark: var(--flag-red-dark);
+  --color-flag-green-dark: var(--flag-green-dark);
 
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-serif: 'Cinzel', serif;
 }
 
 [data-theme="dark"] {
-  --background: var(--dark-slate);
-  --foreground: var(--cream);
-  --card: #1A2F1A;
-  --card-foreground: var(--cream);
-  --primary: var(--dragon-gold);
-  --primary-foreground: var(--dark-slate);
-  --secondary: var(--welsh-green);
-  --secondary-foreground: var(--cream);
-  --muted: rgba(0, 133, 62, 0.1);
-  --muted-foreground: #B0C4B0;
-  --border: rgba(0, 133, 62, 0.3);
-  --input: var(--border);
+  --background: radial-gradient(ellipse at center, #0F1A0F 0%, #1A1A1A 100%);
+  --foreground: var(--welsh-white);
+  --card: linear-gradient(135deg, rgba(200, 16, 46, 0.15) 0%, rgba(0, 133, 62, 0.15) 100%);
+  --card-foreground: var(--welsh-white);
+  --primary: var(--flag-red-light);
+  --primary-foreground: var(--welsh-white);
+  --secondary: var(--flag-green-light);
+  --secondary-foreground: var(--welsh-white);
+  --accent: var(--dragon-gold);
+  --accent-foreground: #1A1A1A;
+  --muted: rgba(200, 16, 46, 0.12);
+  --muted-foreground: rgba(255, 255, 255, 0.7);
+  --border: rgba(255, 215, 0, 0.2);
+  --input: rgba(0, 133, 62, 0.2);
+  --ring: var(--dragon-gold);
 }
 
 body {
@@ -96,36 +103,71 @@ body {
   background: var(--dragon-gold);
 }
 
-/* Welsh Dragon decorative elements */
+/* Intensified Welsh Flag decorative elements */
 .dragon-border {
-  border: 3px solid var(--dragon-gold);
+  border: 4px solid var(--dragon-gold);
   box-shadow:
-    inset 0 0 0 3px var(--welsh-red),
-    inset 0 0 0 6px var(--welsh-white),
-    inset 0 0 0 9px var(--welsh-green),
-    0 6px 12px rgba(221, 0, 0, 0.15);
+    inset 0 0 0 4px var(--welsh-red),
+    inset 0 0 0 8px var(--welsh-white),
+    inset 0 0 0 12px var(--welsh-green),
+    0 8px 16px rgba(200, 16, 46, 0.25),
+    0 0 30px rgba(255, 215, 0, 0.2);
 }
 
 .dragon-scale-texture {
   background-image:
-    radial-gradient(circle at 25% 25%, rgba(0, 133, 62, 0.08) 30%, transparent 30%),
-    radial-gradient(circle at 75% 75%, rgba(221, 0, 0, 0.08) 30%, transparent 30%),
-    radial-gradient(circle at 25% 75%, rgba(255, 215, 0, 0.08) 30%, transparent 30%),
-    radial-gradient(circle at 75% 25%, rgba(0, 133, 62, 0.08) 30%, transparent 30%);
-  background-size: 25px 25px;
-  background-position: 0 0, 12.5px 12.5px, 0 12.5px, 12.5px 0;
+    radial-gradient(circle at 25% 25%, rgba(0, 133, 62, 0.15) 35%, transparent 35%),
+    radial-gradient(circle at 75% 75%, rgba(200, 16, 46, 0.15) 35%, transparent 35%),
+    radial-gradient(circle at 25% 75%, rgba(255, 215, 0, 0.1) 35%, transparent 35%),
+    radial-gradient(circle at 75% 25%, rgba(0, 133, 62, 0.15) 35%, transparent 35%);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px, 0 15px, 15px 0;
 }
 
 .welsh-flag-gradient {
   background: linear-gradient(
-    to bottom,
+    180deg,
     var(--welsh-white) 0%,
-    var(--welsh-white) 50%,
-    var(--welsh-green) 50%,
+    var(--welsh-white) 48%,
+    var(--dragon-gold) 48%,
+    var(--dragon-gold) 52%,
+    var(--welsh-green) 52%,
     var(--welsh-green) 100%
   );
 }
 
 .dragon-fire-glow {
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3), 0 0 40px rgba(221, 0, 0, 0.2);
+  box-shadow:
+    0 0 25px rgba(255, 215, 0, 0.4),
+    0 0 50px rgba(200, 16, 46, 0.3),
+    0 0 75px rgba(0, 133, 62, 0.2);
+}
+
+.welsh-flag-bg {
+  background: linear-gradient(
+    to right,
+    var(--welsh-green) 0%,
+    var(--welsh-green) 33%,
+    var(--welsh-white) 33%,
+    var(--welsh-white) 66%,
+    var(--welsh-red) 66%,
+    var(--welsh-red) 100%
+  );
+}
+
+[data-theme="dark"] .dragon-border {
+  box-shadow:
+    inset 0 0 0 4px var(--flag-red-light),
+    inset 0 0 0 8px rgba(255, 255, 255, 0.9),
+    inset 0 0 0 12px var(--flag-green-light),
+    0 8px 16px rgba(230, 51, 74, 0.4),
+    0 0 40px rgba(255, 215, 0, 0.3);
+}
+
+[data-theme="dark"] .dragon-scale-texture {
+  background-image:
+    radial-gradient(circle at 25% 25%, rgba(0, 165, 81, 0.2) 35%, transparent 35%),
+    radial-gradient(circle at 75% 75%, rgba(230, 51, 74, 0.2) 35%, transparent 35%),
+    radial-gradient(circle at 25% 75%, rgba(255, 215, 0, 0.15) 35%, transparent 35%),
+    radial-gradient(circle at 75% 25%, rgba(0, 165, 81, 0.2) 35%, transparent 35%);
 }

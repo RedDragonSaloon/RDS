@@ -66,10 +66,10 @@ export function Navigation({ user }: NavigationProps) {
               </div>
               <div>
                 <h1 className="font-serif font-bold text-xl text-foreground">
-                  Y Ddraig Goch Saloon
+                  The Dragon Saloon
                 </h1>
                 <p className="text-sm text-muted-foreground font-serif italic">
-                  Cymru am byth - Wales forever
+                  Fine drinks, fair deals, fierce spirit
                 </p>
               </div>
             </Link>

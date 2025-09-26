@@ -3,9 +3,9 @@ import "./globals.css";
 import { AuthProvider } from "@/contexts/auth-context";
 
 export const metadata: Metadata = {
-  title: "Y Ddraig Goch Saloon - Welsh Dragon Management System",
-  description: "Welsh-themed saloon management system for RedM roleplay community. Track sales, manage inventory, and monitor staff performance with Welsh pride.",
-  keywords: "RedM, roleplay, welsh, saloon, dragon, management, POS, inventory, wales, cymru",
+  title: "The Dragon Saloon - Management System",
+  description: "Saloon management system for RedM roleplay community. Track sales, manage inventory, and monitor staff performance.",
+  keywords: "RedM, roleplay, saloon, management, POS, inventory",
 };
 
 export default function RootLayout({

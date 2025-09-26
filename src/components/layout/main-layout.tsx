@@ -28,9 +28,9 @@ export function MainLayout({ children, user: propUser }: MainLayoutProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-serif font-semibold text-lg mb-4">Y Ddraig Goch Saloon</h3>
+              <h3 className="font-serif font-semibold text-lg mb-4">The Dragon Saloon</h3>
               <p className="text-muted-foreground">
-                Serving the finest drinks with Welsh pride since 1912. 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+                Serving the finest drinks and fairest deals in the territory since 1912.
               </p>
             </div>
             <div>
@@ -43,18 +43,16 @@ export function MainLayout({ children, user: propUser }: MainLayoutProps) {
               </ul>
             </div>
             <div>
-              <h4 className="font-medium mb-4">Cysylltu - Contact</h4>
+              <h4 className="font-medium mb-4">Contact</h4>
               <p className="text-sm text-muted-foreground">
-                Located on Stryd Fawr (Main Street)<br />
+                Located on Main Street<br />
                 Open daily from noon til midnight<br />
-                "Lle mae chwedlau'n cael eu geni"<br />
-                <span className="italic text-xs">"Where legends are born"</span>
+                "Where legends are born"
               </p>
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 Y Ddraig Goch Saloon. Built for RedM roleplay community.</p>
-            <p className="mt-1 text-xs">🐉 Balchder Cymru - Welsh Pride 🐉</p>
+            <p>&copy; 2024 The Dragon Saloon. Built for RedM roleplay community.</p>
           </div>
         </div>
       </footer>
