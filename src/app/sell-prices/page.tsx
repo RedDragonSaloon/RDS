@@ -22,8 +22,6 @@ import {
   ShoppingBag
 } from "lucide-react";
 
-// Mock user - in real app this would come from auth
-const mockUser = { name: "Admin", role: "ADMIN" };
 
 interface SellPrice {
   id: string;
@@ -157,7 +155,7 @@ export default function SellPricesPage() {
 
   if (loading) {
     return (
-      <MainLayout user={mockUser}>
+      <MainLayout>
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
         </div>
@@ -170,7 +168,7 @@ export default function SellPricesPage() {
     : 0;
 
   return (
-    <MainLayout user={mockUser}>
+    <MainLayout>
       <div className="space-y-8">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
@@ -311,9 +309,6 @@ export default function SellPricesPage() {
                         <TableHead>Category</TableHead>
                         <TableHead>Unit</TableHead>
                         <TableHead className="text-right">Sell Price</TableHead>
-                        {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                          <TableHead className="text-right">Buy Price</TableHead>
-                        )}
                         <TableHead className="text-right">Margin</TableHead>
                       </TableRow>
                     </TableHeader>
@@ -332,13 +327,6 @@ export default function SellPricesPage() {
                                 ${sellPrice.sellPrice.toFixed(2)}
                               </span>
                             </TableCell>
-                            {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                              <TableCell className="text-right text-muted-foreground">
-                                <span className="font-mono">
-                                  ${sellPrice.item.buyPrice.toFixed(2)}
-                                </span>
-                              </TableCell>
-                            )}
                             <TableCell className="text-right">
                               <Badge
                                 variant={margin >= 50 ? "default" : margin >= 25 ? "secondary" : "outline"}
@@ -407,12 +395,6 @@ export default function SellPricesPage() {
                           <TableHead>Description</TableHead>
                           <TableHead className="text-center">Items</TableHead>
                           <TableHead className="text-right">Bundle Price</TableHead>
-                          {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                            <TableHead className="text-right">Est. Cost</TableHead>
-                          )}
-                          {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                            <TableHead className="text-right">Margin</TableHead>
-                          )}
                         </TableRow>
                       </TableHeader>
                       <TableBody>
@@ -436,22 +418,6 @@ export default function SellPricesPage() {
                                   ${pkg.bundleSellPrice.toFixed(2)}
                                 </span>
                               </TableCell>
-                              {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                                <TableCell className="text-right text-muted-foreground">
-                                  <span className="font-mono">
-                                    ~${estimatedCost.toFixed(2)}
-                                  </span>
-                                </TableCell>
-                              )}
-                              {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                                <TableCell className="text-right">
-                                  <Badge
-                                    variant={margin >= 50 ? "default" : margin >= 25 ? "secondary" : "outline"}
-                                  >
-                                    {margin.toFixed(1)}%
-                                  </Badge>
-                                </TableCell>
-                              )}
                             </TableRow>
                           );
                         })}

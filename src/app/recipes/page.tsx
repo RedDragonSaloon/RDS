@@ -23,8 +23,6 @@ import {
   Beef
 } from "lucide-react";
 
-// Mock user - in real app this would come from auth
-const mockUser = null;
 
 interface RecipeIngredient {
   id: string;
@@ -139,7 +137,7 @@ export default function RecipesPage() {
 
   if (loading) {
     return (
-      <MainLayout user={mockUser}>
+      <MainLayout>
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
         </div>
@@ -156,7 +154,7 @@ export default function RecipesPage() {
     : 0;
 
   return (
-    <MainLayout user={mockUser}>
+    <MainLayout>
       <div className="space-y-8">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
@@ -341,18 +339,6 @@ export default function RecipesPage() {
                         </div>
                       </div>
 
-                      {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                        <div className="grid grid-cols-2 gap-2 pt-2 border-t">
-                          <div className="text-center">
-                            <div className="text-xs text-muted-foreground">Cost</div>
-                            <div className="font-semibold text-sm">${recipe.calculatedCost.toFixed(2)}</div>
-                          </div>
-                          <div className="text-center">
-                            <div className="text-xs text-muted-foreground">Suggested</div>
-                            <div className="font-semibold text-sm">${recipe.suggestedSellPrice.toFixed(2)}</div>
-                          </div>
-                        </div>
-                      )}
                     </div>
                   </CardContent>
                 </Card>

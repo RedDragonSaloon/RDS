@@ -20,8 +20,6 @@ import {
   Calendar
 } from "lucide-react";
 
-// Mock user - in real app this would come from auth
-const mockUser = { name: "Admin", role: "ADMIN" };
 
 interface Item {
   id: string;
@@ -133,7 +131,7 @@ export default function BuyPricesPage() {
 
   if (loading) {
     return (
-      <MainLayout user={mockUser}>
+      <MainLayout>
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
         </div>
@@ -142,7 +140,7 @@ export default function BuyPricesPage() {
   }
 
   return (
-    <MainLayout user={mockUser}>
+    <MainLayout>
       <div className="space-y-8">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
@@ -266,10 +264,7 @@ export default function BuyPricesPage() {
           <CardHeader>
             <CardTitle>Items ({filteredItems.length})</CardTitle>
             <CardDescription>
-              {mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER"
-                ? "Click the edit button to update prices"
-                : "Current buy prices for all items"
-              }
+              Current buy prices for all items - editing disabled
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -283,9 +278,6 @@ export default function BuyPricesPage() {
                     <TableHead className="text-right">Buy Price</TableHead>
                     <TableHead>Supplier</TableHead>
                     <TableHead>Last Updated</TableHead>
-                    {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                      <TableHead className="text-right">Actions</TableHead>
-                    )}
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -299,20 +291,9 @@ export default function BuyPricesPage() {
                       </TableCell>
                       <TableCell className="text-muted-foreground">{item.unit}</TableCell>
                       <TableCell className="text-right">
-                        {editingItem === item.id ? (
-                          <Input
-                            type="number"
-                            step="0.01"
-                            value={editPrice}
-                            onChange={(e) => setEditPrice(e.target.value)}
-                            className="w-20 text-right"
-                            autoFocus
-                          />
-                        ) : (
-                          <span className="font-mono font-semibold">
-                            ${item.buyPrice.toFixed(2)}
-                          </span>
-                        )}
+                        <span className="font-mono font-semibold">
+                          ${item.buyPrice.toFixed(2)}
+                        </span>
                       </TableCell>
                       <TableCell className="text-muted-foreground">
                         {item.supplier || "—"}
@@ -323,38 +304,6 @@ export default function BuyPricesPage() {
                           {new Date(item.lastUpdated).toLocaleDateString()}
                         </div>
                       </TableCell>
-                      {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                        <TableCell className="text-right">
-                          {editingItem === item.id ? (
-                            <div className="flex gap-1">
-                              <Button
-                                size="sm"
-                                onClick={() => handleSaveEdit(item.id)}
-                                className="h-8 w-8 p-0"
-                              >
-                                <Check className="h-4 w-4" />
-                              </Button>
-                              <Button
-                                size="sm"
-                                variant="outline"
-                                onClick={handleCancelEdit}
-                                className="h-8 w-8 p-0"
-                              >
-                                <X className="h-4 w-4" />
-                              </Button>
-                            </div>
-                          ) : (
-                            <Button
-                              size="sm"
-                              variant="ghost"
-                              onClick={() => handleEdit(item)}
-                              className="h-8 w-8 p-0"
-                            >
-                              <Edit className="h-4 w-4" />
-                            </Button>
-                          )}
-                        </TableCell>
-                      )}
                     </TableRow>
                   ))}
                 </TableBody>

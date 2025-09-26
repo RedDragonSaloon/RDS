@@ -23,8 +23,6 @@ import {
   Download
 } from "lucide-react";
 
-// Mock user - in real app this would come from auth
-const mockUser = null;
 
 interface RecipeIngredient {
   id: string;
@@ -111,7 +109,7 @@ export function RecipeDetailClient({ recipeId }: Props) {
 
   if (loading) {
     return (
-      <MainLayout user={mockUser}>
+      <MainLayout>
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
         </div>
@@ -121,7 +119,7 @@ export function RecipeDetailClient({ recipeId }: Props) {
 
   if (notFound || !recipe) {
     return (
-      <MainLayout user={mockUser}>
+      <MainLayout>
         <div className="text-center py-12">
           <ChefHat className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
           <h1 className="text-2xl font-bold mb-2">Recipe Not Found</h1>
@@ -141,7 +139,7 @@ export function RecipeDetailClient({ recipeId }: Props) {
   const steps = recipe.stepsMarkdown?.split('\\n').filter(step => step.trim()) || [];
 
   return (
-    <MainLayout user={mockUser}>
+    <MainLayout>
       <div className="space-y-8">
         {/* Back Button and Actions */}
         <div className="flex items-center justify-between">
@@ -198,21 +196,6 @@ export function RecipeDetailClient({ recipeId }: Props) {
                     <div className="text-sm text-muted-foreground">Ingredients</div>
                   </div>
 
-                  {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                    <>
-                      <div className="text-center p-4 bg-muted/50 rounded-lg">
-                        <DollarSign className="h-5 w-5 mx-auto mb-2 text-muted-foreground" />
-                        <div className="font-semibold">${recipe.calculatedCost.toFixed(2)}</div>
-                        <div className="text-sm text-muted-foreground">Cost to Make</div>
-                      </div>
-
-                      <div className="text-center p-4 bg-muted/50 rounded-lg">
-                        <Star className="h-5 w-5 mx-auto mb-2 text-muted-foreground" />
-                        <div className="font-semibold">${recipe.suggestedSellPrice.toFixed(2)}</div>
-                        <div className="text-sm text-muted-foreground">Suggested Price</div>
-                      </div>
-                    </>
-                  )}
                 </div>
               </CardContent>
             </Card>
@@ -260,12 +243,6 @@ export function RecipeDetailClient({ recipeId }: Props) {
                     <TableHead>Ingredient</TableHead>
                     <TableHead className="text-right">Quantity</TableHead>
                     <TableHead>Unit</TableHead>
-                    {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                      <>
-                        <TableHead className="text-right">Unit Cost</TableHead>
-                        <TableHead className="text-right">Total Cost</TableHead>
-                      </>
-                    )}
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -284,16 +261,6 @@ export function RecipeDetailClient({ recipeId }: Props) {
                         <TableCell className="text-muted-foreground">
                           {unit}
                         </TableCell>
-                        {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-                          <>
-                            <TableCell className="text-right font-mono">
-                              ${ingredient.item.buyPrice.toFixed(2)}
-                            </TableCell>
-                            <TableCell className="text-right font-mono font-semibold">
-                              ${totalCost.toFixed(2)}
-                            </TableCell>
-                          </>
-                        )}
                       </TableRow>
                     );
                   })}
@@ -301,14 +268,6 @@ export function RecipeDetailClient({ recipeId }: Props) {
               </Table>
             </div>
 
-            {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-              <div className="flex justify-end mt-4 pt-4 border-t">
-                <div className="text-right">
-                  <div className="text-sm text-muted-foreground">Total Recipe Cost</div>
-                  <div className="text-lg font-bold">${recipe.calculatedCost.toFixed(2)}</div>
-                </div>
-              </div>
-            )}
           </CardContent>
         </Card>
 
@@ -346,51 +305,6 @@ export function RecipeDetailClient({ recipeId }: Props) {
           </Card>
         )}
 
-        {/* Pricing Information (Staff Only) */}
-        {(mockUser?.role === "ADMIN" || mockUser?.role === "MANAGER") && (
-          <Card className="bg-muted/50">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <DollarSign className="h-5 w-5" />
-                Pricing Analysis
-              </CardTitle>
-              <CardDescription>
-                Cost breakdown and pricing recommendations
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center p-4 bg-background rounded-lg">
-                  <div className="text-2xl font-bold text-destructive">${recipe.calculatedCost.toFixed(2)}</div>
-                  <div className="text-sm text-muted-foreground">Total Cost</div>
-                </div>
-
-                <div className="text-center p-4 bg-background rounded-lg">
-                  <div className="text-2xl font-bold text-primary">${recipe.suggestedSellPrice.toFixed(2)}</div>
-                  <div className="text-sm text-muted-foreground">Suggested Price</div>
-                </div>
-
-                <div className="text-center p-4 bg-background rounded-lg">
-                  <div className="text-2xl font-bold text-green-600">{recipe.suggestedMargin}%</div>
-                  <div className="text-sm text-muted-foreground">Target Margin</div>
-                </div>
-              </div>
-
-              <div className="mt-4 p-4 bg-background rounded-lg">
-                <div className="flex items-start gap-2">
-                  <AlertTriangle className="h-5 w-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <div className="font-semibold text-sm">Pricing Note</div>
-                    <p className="text-sm text-muted-foreground">
-                      This is an estimated cost based on ingredient buy prices.
-                      Actual costs may vary based on portion sizes, preparation time, and market conditions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        )}
       </div>
     </MainLayout>
   );
