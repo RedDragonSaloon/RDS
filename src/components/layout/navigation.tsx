@@ -23,21 +23,12 @@ import { cn } from "@/lib/utils/cn";
 const navigation = [
   { name: "Home", href: "/", icon: Home },
   { name: "Buy Prices", href: "/buy-prices", icon: DollarSign },
-  { name: "Sell Prices & Packages", href: "/sell-prices", icon: Package },
+  { name: "Sell Prices", href: "/sell-prices", icon: Package },
   { name: "Recipes", href: "/recipes", icon: ChefHat },
-  { name: "Sales", href: "/sales", icon: ShoppingCart, requiresAuth: true },
-  { name: "Leaderboard", href: "/leaderboard", icon: Trophy },
-  { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard, requiresAuth: true },
+  { name: "Sales Entry", href: "/sales", icon: ShoppingCart },
 ];
 
-interface NavigationProps {
-  user?: {
-    name: string;
-    role: string;
-  } | null;
-}
-
-export function Navigation({ user }: NavigationProps) {
+export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const pathname = usePathname();
@@ -46,13 +37,6 @@ export function Navigation({ user }: NavigationProps) {
     setDarkMode(!darkMode);
     document.documentElement.setAttribute('data-theme', !darkMode ? 'dark' : 'light');
   };
-
-  const filteredNavigation = navigation.filter(item => {
-    if (item.requiresAuth) {
-      return user !== null;
-    }
-    return true;
-  });
 
   return (
     <nav className="bg-card border-b border-border dragon-scale-texture">
@@ -78,7 +62,7 @@ export function Navigation({ user }: NavigationProps) {
           {/* Desktop navigation */}
           <div className="hidden lg:block">
             <div className="ml-6 flex items-baseline space-x-2">
-              {filteredNavigation.map((item) => {
+              {navigation.map((item) => {
                 const Icon = item.icon;
                 const isActive = pathname === item.href;
 
@@ -111,27 +95,6 @@ export function Navigation({ user }: NavigationProps) {
             >
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
-
-            {user ? (
-              <div className="flex items-center space-x-2">
-                <span className="text-sm font-medium hidden xl:inline">
-                  Welcome, {user.name}
-                </span>
-                <Link href="/profile">
-                  <Button variant="outline" size="sm">
-                    <User className="h-4 w-4" />
-                    <span className="hidden xl:inline ml-1">Profile</span>
-                  </Button>
-                </Link>
-              </div>
-            ) : (
-              <Link href="/login">
-                <Button size="sm">
-                  <User className="h-4 w-4" />
-                  <span className="hidden xl:inline ml-1">Login</span>
-                </Button>
-              </Link>
-            )}
           </div>
 
           {/* Mobile menu button */}
@@ -163,7 +126,7 @@ export function Navigation({ user }: NavigationProps) {
       {mobileMenuOpen && (
         <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-card border-t border-border">
-            {filteredNavigation.map((item) => {
+            {navigation.map((item) => {
               const Icon = item.icon;
               const isActive = pathname === item.href;
 
@@ -184,33 +147,6 @@ export function Navigation({ user }: NavigationProps) {
                 </Link>
               );
             })}
-
-            <div className="pt-4 border-t border-border">
-              {user ? (
-                <div className="space-y-2">
-                  <div className="px-3 py-2 text-sm font-medium text-muted-foreground">
-                    Welcome, {user.name}
-                  </div>
-                  <Link
-                    href="/profile"
-                    className="flex items-center space-x-3 px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-muted"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <User className="h-5 w-5" />
-                    <span>Profile</span>
-                  </Link>
-                </div>
-              ) : (
-                <Link
-                  href="/login"
-                  className="flex items-center space-x-3 px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-muted"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <User className="h-5 w-5" />
-                  <span>Login</span>
-                </Link>
-              )}
-            </div>
           </div>
         </div>
       )}

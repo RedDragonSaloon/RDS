@@ -11,9 +11,6 @@ import {
   Star
 } from "lucide-react";
 
-// Mock user data - replace with actual auth later
-const mockUser = null; // Set to null to show logged-out state
-
 export default function Home() {
   const noticeboard = `# Welcome to The Dragon Saloon
 
@@ -30,7 +27,7 @@ export default function Home() {
 *Fine drinks, fair deals, fierce spirit.*`;
 
   return (
-    <MainLayout user={mockUser}>
+    <MainLayout>
       {/* Hero Section */}
       <section className="text-center mb-16">
         <div className="relative bg-gradient-to-r from-primary to-secondary p-12 rounded-lg dragon-border mb-8 dragon-scale-texture">
@@ -108,15 +105,15 @@ export default function Home() {
           </Card>
         </Link>
 
-        <Link href="/leaderboard">
+        <Link href="/sales">
           <Card className="card-welsh-green hover:shadow-lg transition-shadow cursor-pointer group">
             <CardHeader className="text-center">
               <div className="mx-auto w-12 h-12 bg-white rounded-full flex items-center justify-center mb-4 group-hover:bg-white/90 transition-colors">
-                <Trophy className="h-6 w-6 text-welsh-green" />
+                <ShoppingCart className="h-6 w-6 text-welsh-green" />
               </div>
-              <CardTitle className="text-white">Leaderboard</CardTitle>
+              <CardTitle className="text-white">Sales Entry</CardTitle>
               <CardDescription className="text-white/90">
-                Weekly staff performance and sales champions
+                Record your sales transactions - open to all staff
               </CardDescription>
             </CardHeader>
           </Card>
@@ -143,27 +140,33 @@ export default function Home() {
         </Card>
       </section>
 
-      {/* Staff Section - Show only if not logged in */}
-      {!mockUser && (
-        <section className="text-center">
-          <Card className="bg-muted">
-            <CardHeader>
-              <CardTitle>Are you a member of our staff?</CardTitle>
-              <CardDescription>
-                Staff members can log sales, view commissions, and access the dashboard
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="/login">
-                <Button>
-                  Staff Login
+      {/* Quick Start Section */}
+      <section className="text-center">
+        <Card className="bg-muted">
+          <CardHeader>
+            <CardTitle>Get Started</CardTitle>
+            <CardDescription>
+              Everything you need to manage the saloon - no login required
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link href="/buy-prices">
+                <Button variant="outline">
+                  View Buy Prices
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-            </CardContent>
-          </Card>
-        </section>
-      )}
+              <Link href="/sales">
+                <Button>
+                  Record a Sale
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+      </section>
     </MainLayout>
   );
 }

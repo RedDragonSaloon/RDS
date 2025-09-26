@@ -1,24 +1,13 @@
-"use client";
-
 import { Navigation } from "./navigation";
-import { useAuth } from "@/contexts/auth-context";
 
 interface MainLayoutProps {
   children: React.ReactNode;
-  user?: {
-    name: string;
-    role: string;
-  } | null;
 }
 
-export function MainLayout({ children, user: propUser }: MainLayoutProps) {
-  const { user: authUser } = useAuth();
-
-  // Use auth context user if available, otherwise fall back to prop user
-  const user = authUser || propUser;
+export function MainLayout({ children }: MainLayoutProps) {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation user={user} />
+      <Navigation />
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
         {children}
       </main>
